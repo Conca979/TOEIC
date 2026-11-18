@@ -1,0 +1,2575 @@
+{
+  "test_id": 3,
+  "title": "Hackers TOEIC 3 - Test 03",
+  "audio_file": "Hacker 3/AUDIO/TEST 3.mp3",
+  "missing_notes": [],
+  "listening": {
+    "part1": [
+      {
+        "number": 1,
+        "image": "images/part1_q01.jpg",
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)",
+          "D": "(D)"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 2,
+        "image": "images/part1_q02.jpg",
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)",
+          "D": "(D)"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 3,
+        "image": "images/part1_q03.jpg",
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)",
+          "D": "(D)"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 4,
+        "image": "images/part1_q04.jpg",
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)",
+          "D": "(D)"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 5,
+        "image": "images/part1_q05.jpg",
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)",
+          "D": "(D)"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 6,
+        "image": "images/part1_q06.jpg",
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)",
+          "D": "(D)"
+        },
+        "answer": "B"
+      }
+    ],
+    "part2": [
+      {
+        "number": 7,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 8,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 9,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 10,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 11,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 12,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 13,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 14,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 15,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 16,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 17,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 18,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 19,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 20,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 21,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 22,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 23,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 24,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 25,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 26,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 27,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 28,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 29,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 30,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 31,
+        "options": {
+          "A": "(A)",
+          "B": "(B)",
+          "C": "(C)"
+        },
+        "answer": "A"
+      }
+    ],
+    "part3": [
+      {
+        "group_id": "q32-34",
+        "image": null,
+        "questions": [
+          {
+            "number": 32,
+            "question": "Who most likely are the speakers?",
+            "options": {
+              "A": "Travel agents",
+              "B": "Event planners",
+              "C": "Advertising executives",
+              "D": "Environmental researchers"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 33,
+            "question": "What is mentioned about the Silkwood Hotel?",
+            "options": {
+              "A": "It launched a new service.",
+              "B": "It has renovated its suites.",
+              "C": "It is hosting a conference.",
+              "D": "It will hold a promotion."
+            },
+            "answer": "D"
+          },
+          {
+            "number": 34,
+            "question": "What does the man ask the woman to do?",
+            "options": {
+              "A": "Call a company",
+              "B": "Make a reservation",
+              "C": "Revise a newsletter",
+              "D": "Send an e-mail"
+            },
+            "answer": "D"
+          }
+        ]
+      },
+      {
+        "group_id": "q35-37",
+        "image": null,
+        "questions": [
+          {
+            "number": 35,
+            "question": "Where most likely do the speakers work?",
+            "options": {
+              "A": "At a car rental agency",
+              "B": "At a home electronics shop",
+              "C": "At a furniture retailer",
+              "D": "At a courier company"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 36,
+            "question": "Why is the man worried?",
+            "options": {
+              "A": "More vehicles may be required.",
+              "B": "Customers have submitted complaints.",
+              "C": "Branches might be closed.",
+              "D": "Total sales have dropped."
+            },
+            "answer": "A"
+          },
+          {
+            "number": 37,
+            "question": "What does the woman ask for?",
+            "options": {
+              "A": "An electronic device",
+              "B": "A truck key",
+              "C": "An order form",
+              "D": "A business card"
+            },
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "group_id": "q38-40",
+        "image": null,
+        "questions": [
+          {
+            "number": 38,
+            "question": "What is the conversation mainly about?",
+            "options": {
+              "A": "A company dinner",
+              "B": "A guest list",
+              "C": "A remodeling project",
+              "D": "A customer survey"
+            },
+            "answer": "D"
+          },
+          {
+            "number": 39,
+            "question": "What does the woman recommend?",
+            "options": {
+              "A": "Speaking to a manager",
+              "B": "Training some staff",
+              "C": "Changing some rules",
+              "D": "Attending a conference"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 40,
+            "question": "What did the man do last week?",
+            "options": {
+              "A": "Sampled a food selection",
+              "B": "Hired a new chef",
+              "C": "Participated in an event",
+              "D": "Modified an agenda"
+            },
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "group_id": "q41-43",
+        "image": null,
+        "questions": [
+          {
+            "number": 41,
+            "question": "What problem does the woman mention?",
+            "options": {
+              "A": "A worker is not available.",
+              "B": "An inspection was rescheduled.",
+              "C": "A bill has not arrived.",
+              "D": "A charge was higher than expected."
+            },
+            "answer": "D"
+          },
+          {
+            "number": 42,
+            "question": "What does the woman imply when she says, \"It could be a big job\"?",
+            "options": {
+              "A": "She is concerned about cost.",
+              "B": "She would like to get another opinion.",
+              "C": "She will hire an assistant.",
+              "D": "She thinks a project should be postponed."
+            },
+            "answer": "A"
+          },
+          {
+            "number": 43,
+            "question": "What will the man probably do next?",
+            "options": {
+              "A": "Replace a broken pipe",
+              "B": "Provide contact information",
+              "C": "Look for a cheaper alternative",
+              "D": "Order additional tools"
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "group_id": "q44-46",
+        "image": null,
+        "questions": [
+          {
+            "number": 44,
+            "question": "What is the conversation mainly about?",
+            "options": {
+              "A": "A printing error",
+              "B": "A construction project",
+              "C": "A business pamphlet",
+              "D": "An employee transfer"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 45,
+            "question": "What happened last month?",
+            "options": {
+              "A": "Customer refunds were processed.",
+              "B": "A new location was opened.",
+              "C": "An agreement was signed.",
+              "D": "Some facilities were renovated."
+            },
+            "answer": "D"
+          },
+          {
+            "number": 46,
+            "question": "What does the man offer to do?",
+            "options": {
+              "A": "Distribute some brochures",
+              "B": "Inspect a building",
+              "C": "Interview a designer",
+              "D": "Contact another company"
+            },
+            "answer": "D"
+          }
+        ]
+      },
+      {
+        "group_id": "q47-49",
+        "image": null,
+        "questions": [
+          {
+            "number": 47,
+            "question": "What does the woman ask the man about?",
+            "options": {
+              "A": "A deadline extension",
+              "B": "A project's progress",
+              "C": "A staff request",
+              "D": "A meeting's location"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 48,
+            "question": "Why does the woman say, \"It seems like the right thing to do\"?",
+            "options": {
+              "A": "To approve an employee transfer",
+              "B": "To recommend hosting a celebration",
+              "C": "To show support for higher salaries",
+              "D": "To promote a potential candidate"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 49,
+            "question": "What does the man suggest?",
+            "options": {
+              "A": "Postponing a client appointment",
+              "B": "Mentioning a proposal at a gathering",
+              "C": "Finishing presentation materials",
+              "D": "Rearranging seats for a conference"
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "group_id": "q50-52",
+        "image": null,
+        "questions": [
+          {
+            "number": 50,
+            "question": "What is the problem?",
+            "options": {
+              "A": "A purchase was not approved.",
+              "B": "A delivery will arrive late.",
+              "C": "A device is malfunctioning.",
+              "D": "A proposal was rejected."
+            },
+            "answer": "C"
+          },
+          {
+            "number": 51,
+            "question": "What is scheduled to happen in the afternoon?",
+            "options": {
+              "A": "An employee orientation",
+              "B": "An executive meeting",
+              "C": "A technology seminar",
+              "D": "A product demonstration"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 52,
+            "question": "What does the man imply about the IT department?",
+            "options": {
+              "A": "It will hire additional staff.",
+              "B": "It is not currently busy.",
+              "C": "It moved to a new office.",
+              "D": "It has a new department head."
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "group_id": "q53-55",
+        "image": null,
+        "questions": [
+          {
+            "number": 53,
+            "question": "According to the woman, what do some customers want to buy?",
+            "options": {
+              "A": "A portable charger",
+              "B": "A room furnishing",
+              "C": "A mobile phone",
+              "D": "A remote controller"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 54,
+            "question": "What is the man uncertain about?",
+            "options": {
+              "A": "Why a product is unavailable",
+              "B": "Where an item is located",
+              "C": "How much a device costs",
+              "D": "When a shipment will arrive"
+            },
+            "answer": "D"
+          },
+          {
+            "number": 55,
+            "question": "What does the woman suggest?",
+            "options": {
+              "A": "Assigning another worker to a shift",
+              "B": "Offering customers a discount",
+              "C": "Contacting a product manufacturer",
+              "D": "Rewarding some staff members"
+            },
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "group_id": "q56-58",
+        "image": null,
+        "questions": [
+          {
+            "number": 56,
+            "question": "How did the woman find out about the event at the museum?",
+            "options": {
+              "A": "By listening to the radio",
+              "B": "By watching television",
+              "C": "By reading a magazine",
+              "D": "By talking to a friend"
+            },
+            "answer": "A"
+          },
+          {
+            "number": 57,
+            "question": "According to the man, what did the National Space Agency do?",
+            "options": {
+              "A": "Purchased some instruments",
+              "B": "Conducted a study",
+              "C": "Designed a display",
+              "D": "Provided some items"
+            },
+            "answer": "D"
+          },
+          {
+            "number": 58,
+            "question": "What costs an extra fee?",
+            "options": {
+              "A": "Participating in a guided tour",
+              "B": "Accessing a temporary exhibit",
+              "C": "Attending a lecture series",
+              "D": "Viewing a documentary film"
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "group_id": "q59-61",
+        "image": null,
+        "questions": [
+          {
+            "number": 59,
+            "question": "What does the man ask the woman about?",
+            "options": {
+              "A": "The location of merchandise",
+              "B": "Preparations for an event",
+              "C": "The progress of construction work",
+              "D": "Plans for a staff meeting"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 60,
+            "question": "According to the man, when do the extra racks need to arrive?",
+            "options": {
+              "A": "On Tuesday",
+              "B": "On Wednesday",
+              "C": "On Thursday",
+              "D": "On Friday"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 61,
+            "question": "What does the man say he will do?",
+            "options": {
+              "A": "Perform an inventory",
+              "B": "Verify supply levels",
+              "C": "Confirm a discount amount",
+              "D": "Locate delivered packages"
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "group_id": "q62-64",
+        "image": null,
+        "questions": [
+          {
+            "number": 62,
+            "question": "According to the man, what did the woman do earlier today?",
+            "options": {
+              "A": "Recorded a message",
+              "B": "Stopped by a reception desk",
+              "C": "Received a parcel",
+              "D": "Canceled an order"
+            },
+            "answer": "A"
+          },
+          {
+            "number": 63,
+            "question": "What does the woman mean when she says, \"That's what I figured\"?",
+            "options": {
+              "A": "She noticed an error.",
+              "B": "She confirmed a delay.",
+              "C": "She anticipated a cost increase.",
+              "D": "She identified staffing needs."
+            },
+            "answer": "C"
+          },
+          {
+            "number": 64,
+            "question": "When did the man originally plan to finish the work?",
+            "options": {
+              "A": "At 10 A.M.",
+              "B": "At 11 A.M.",
+              "C": "At 12 P.M.",
+              "D": "At 1 P.M."
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "group_id": "q65-67",
+        "image": "images/part3_q65-67.jpg",
+        "questions": [
+          {
+            "number": 65,
+            "question": "What event will the speakers attend tomorrow night?",
+            "options": {
+              "A": "A grand opening sale",
+              "B": "A fashion show",
+              "C": "A fund-raising event",
+              "D": "A trade fair"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 66,
+            "question": "Why does the man want to switch dry cleaners?",
+            "options": {
+              "A": "A garment was damaged.",
+              "B": "A business is going to close.",
+              "C": "A promotion has expired.",
+              "D": "A location is more convenient."
+            },
+            "answer": "B"
+          },
+          {
+            "number": 67,
+            "question": "Look at the graphic. Which service qualifies for a discount?",
+            "options": {
+              "A": "Adding buttons",
+              "B": "Shortening",
+              "C": "Cleaning",
+              "D": "Pressing"
+            },
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "group_id": "q68-70",
+        "image": "images/part3_q68-70.jpg",
+        "questions": [
+          {
+            "number": 68,
+            "question": "According to the man, what is the maximum loan period?",
+            "options": {
+              "A": "One week",
+              "B": "Two weeks",
+              "C": "Three weeks",
+              "D": "Four weeks"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 69,
+            "question": "Look at the graphic. Which book will arrive in September?",
+            "options": {
+              "A": "Beginner Japanese",
+              "B": "Storage and You",
+              "C": "The History of London",
+              "D": "A Guide to Marseilles"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 70,
+            "question": "What will the man most likely do next?",
+            "options": {
+              "A": "Update a library account",
+              "B": "Search for a publication",
+              "C": "Order a replacement book",
+              "D": "Speak with a supervisor"
+            },
+            "answer": "B"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "group_id": "q71-73",
+        "image": null,
+        "questions": [
+          {
+            "number": 71,
+            "question": "What can employees do next week?",
+            "options": {
+              "A": "Sign up for a contest",
+              "B": "Donate some items",
+              "C": "Make various crafts",
+              "D": "Decorate a lobby"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 72,
+            "question": "When will employees most likely visit the community center?",
+            "options": {
+              "A": "On June 9",
+              "B": "On June 12",
+              "C": "On June 13",
+              "D": "On June 16"
+            },
+            "answer": "D"
+          },
+          {
+            "number": 73,
+            "question": "What should some listeners do before the end of the day?",
+            "options": {
+              "A": "Contact a coworker",
+              "B": "Pick up a product",
+              "C": "Participate in a workshop",
+              "D": "Request a deadline extension"
+            },
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "group_id": "q74-76",
+        "image": null,
+        "questions": [
+          {
+            "number": 74,
+            "question": "What is the speaker mainly discussing?",
+            "options": {
+              "A": "A damaged product",
+              "B": "An overdue rental",
+              "C": "A new return policy",
+              "D": "An online reservation"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 75,
+            "question": "What does the speaker recommend the listener do on the holidays?",
+            "options": {
+              "A": "Use the side entrance of a building",
+              "B": "Call an information hotline",
+              "C": "Place an item in a container",
+              "D": "Go to the shop in the morning"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 76,
+            "question": "Why should the listener act quickly?",
+            "options": {
+              "A": "A schedule has been changed.",
+              "B": "A complaint has been made.",
+              "C": "A service will be canceled.",
+              "D": "An amount will increase."
+            },
+            "answer": "D"
+          }
+        ]
+      },
+      {
+        "group_id": "q77-79",
+        "image": null,
+        "questions": [
+          {
+            "number": 77,
+            "question": "Who most likely is Mark Campbell?",
+            "options": {
+              "A": "An actor",
+              "B": "A tour guide",
+              "C": "A resort manager",
+              "D": "A photographer"
+            },
+            "answer": "A"
+          },
+          {
+            "number": 78,
+            "question": "Why does the speaker say, \"We'll spend about an hour here\"?",
+            "options": {
+              "A": "To request that listeners be patient",
+              "B": "To encourage participation in a performance",
+              "C": "To notify listeners of a schedule change",
+              "D": "To confirm that a plan will be followed"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 79,
+            "question": "What are listeners instructed to do?",
+            "options": {
+              "A": "Keep their shoes on",
+              "B": "Avoid touching a display",
+              "C": "Secure their belongings",
+              "D": "Use protective gear"
+            },
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "group_id": "q80-82",
+        "image": null,
+        "questions": [
+          {
+            "number": 80,
+            "question": "What happened yesterday?",
+            "options": {
+              "A": "A retail facility began operations.",
+              "B": "A construction site was chosen.",
+              "C": "An economic report was released.",
+              "D": "A company merger took place."
+            },
+            "answer": "A"
+          },
+          {
+            "number": 81,
+            "question": "What does the speaker say about the city government?",
+            "options": {
+              "A": "It will request repayment of a debt.",
+              "B": "It will receive additional revenue.",
+              "C": "It will take control of a property.",
+              "D": "It will manage a renovation project."
+            },
+            "answer": "B"
+          },
+          {
+            "number": 82,
+            "question": "What is suggested about Analytic Systems?",
+            "options": {
+              "A": "It will increase its payroll taxes.",
+              "B": "It will purchase another factory.",
+              "C": "Its relocation caused many job losses.",
+              "D": "Its closure was due to financial problems."
+            },
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "group_id": "q83-85",
+        "image": null,
+        "questions": [
+          {
+            "number": 83,
+            "question": "Who most likely is the speaker?",
+            "options": {
+              "A": "A caterer",
+              "B": "A hotel manager",
+              "C": "A decorator",
+              "D": "A conference organizer"
+            },
+            "answer": "A"
+          },
+          {
+            "number": 84,
+            "question": "What does the man mean when he says, \"A real triumph\"?",
+            "options": {
+              "A": "A company has won an award.",
+              "B": "A task was difficult to complete.",
+              "C": "A request was unexpected.",
+              "D": "An event was well attended."
+            },
+            "answer": "B"
+          },
+          {
+            "number": 85,
+            "question": "What will the man do later in the day?",
+            "options": {
+              "A": "Prepare a budget",
+              "B": "Answer some questions",
+              "C": "E-mail a client",
+              "D": "Send some samples"
+            },
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "group_id": "q86-88",
+        "image": null,
+        "questions": [
+          {
+            "number": 86,
+            "question": "What is the purpose of the announcement?",
+            "options": {
+              "A": "To promote a product",
+              "B": "To announce a regulation",
+              "C": "To describe an event",
+              "D": "To introduce a service"
+            },
+            "answer": "D"
+          },
+          {
+            "number": 87,
+            "question": "What does the speaker mention about the device?",
+            "options": {
+              "A": "It can be used in many museums.",
+              "B": "It plays content automatically.",
+              "C": "It must be reserved in advance.",
+              "D": "It has several language settings."
+            },
+            "answer": "B"
+          },
+          {
+            "number": 88,
+            "question": "According to the speaker, how can listeners get information about a temporary exhibition?",
+            "options": {
+              "A": "By speaking to an employee",
+              "B": "By visiting a booth",
+              "C": "By joining a group",
+              "D": "By reading a pamphlet"
+            },
+            "answer": "D"
+          }
+        ]
+      },
+      {
+        "group_id": "q89-91",
+        "image": null,
+        "questions": [
+          {
+            "number": 89,
+            "question": "What is being advertised?",
+            "options": {
+              "A": "A television package",
+              "B": "An insurance policy",
+              "C": "An Internet service",
+              "D": "An electronic device"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 90,
+            "question": "What do residents qualify for?",
+            "options": {
+              "A": "A gift certificate",
+              "B": "A software upgrade",
+              "C": "A discounted rate",
+              "D": "A complimentary trial"
+            },
+            "answer": "D"
+          },
+          {
+            "number": 91,
+            "question": "What should listeners bring to the office?",
+            "options": {
+              "A": "A copy of a receipt",
+              "B": "A credit card",
+              "C": "A registration form",
+              "D": "A piece of identification"
+            },
+            "answer": "D"
+          }
+        ]
+      },
+      {
+        "group_id": "q92-94",
+        "image": "images/part4_q92-94.jpg",
+        "questions": [
+          {
+            "number": 92,
+            "question": "Where do the listeners work?",
+            "options": {
+              "A": "At a retail store",
+              "B": "At a distribution center",
+              "C": "At a testing facility",
+              "D": "At a manufacturing plant"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 93,
+            "question": "What does the speaker ask one of the listeners to do?",
+            "options": {
+              "A": "Give an employee a tour",
+              "B": "Post a notice near an exit",
+              "C": "Print out a new schedule",
+              "D": "Record some notes"
+            },
+            "answer": "A"
+          },
+          {
+            "number": 94,
+            "question": "Look at the graphic. Which company has postponed its delivery?",
+            "options": {
+              "A": "Lloyd Ferris",
+              "B": "Monroe Industries",
+              "C": "Abdul & Sons",
+              "D": "Stone Incorporated"
+            },
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "group_id": "q95-97",
+        "image": "images/part4_q95-97.jpg",
+        "questions": [
+          {
+            "number": 95,
+            "question": "Why is the speaker calling?",
+            "options": {
+              "A": "To announce an art gallery opening",
+              "B": "To explain a membership program",
+              "C": "To notify a prize winner",
+              "D": "To request an outstanding payment"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 96,
+            "question": "What does the speaker offer to do?",
+            "options": {
+              "A": "Exchange some tickets",
+              "B": "Cancel a fee",
+              "C": "Provide a refund",
+              "D": "Reserve some seats"
+            },
+            "answer": "A"
+          },
+          {
+            "number": 97,
+            "question": "Look at the graphic. Which exit is closest to the administration office?",
+            "options": {
+              "A": "Exit 10",
+              "B": "Exit 11",
+              "C": "Exit 12",
+              "D": "Exit 13"
+            },
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "group_id": "q98-100",
+        "image": "images/part4_q98-100.jpg",
+        "questions": [
+          {
+            "number": 98,
+            "question": "According to the speaker, what did the interns do?",
+            "options": {
+              "A": "Assisted with a company event",
+              "B": "Participated in off-site training",
+              "C": "Organized a surprise party",
+              "D": "Created a financial report"
+            },
+            "answer": "A"
+          },
+          {
+            "number": 99,
+            "question": "What are the listeners told to do?",
+            "options": {
+              "A": "Cancel a team meeting",
+              "B": "Submit a project plan",
+              "C": "Conduct intern evaluations",
+              "D": "Reschedule overtime work"
+            },
+            "answer": "D"
+          },
+          {
+            "number": 100,
+            "question": "Look at the graphic. Where does the speaker suggest going?",
+            "options": {
+              "A": "Leung Kitchen",
+              "B": "Patsy's Diner",
+              "C": "Luis Pizzeria",
+              "D": "Shea Pub"
+            },
+            "answer": "C"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "number": 101,
+        "question": "Hanson Inc.'s marketing team ------- to finalize the television advertisement for the company's newest touch screen monitor.",
+        "options": {
+          "A": "assembling",
+          "B": "assembled",
+          "C": "to assemble",
+          "D": "assembly"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 102,
+        "question": "The construction of a new subway line was aimed at ------- overcrowding during rush hour.",
+        "options": {
+          "A": "imposing",
+          "B": "preparing",
+          "C": "relieving",
+          "D": "benefiting"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 103,
+        "question": "Ms. Bedford was chosen to represent Centraine because of her considerable ------- in mergers and acquisitions.",
+        "options": {
+          "A": "experts",
+          "B": "expertly",
+          "C": "expert",
+          "D": "expertise"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 104,
+        "question": "The wireless headset ------- by Smartcom's representative at the Fentwood Technology Trade Show will go on the market next month.",
+        "options": {
+          "A": "demonstrate",
+          "B": "demonstrates",
+          "C": "demonstrated",
+          "D": "demonstrating"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 105,
+        "question": "Members who renew their newspaper subscription at least one month prior to its ------- will receive a 5 percent discount.",
+        "options": {
+          "A": "opening",
+          "B": "expiration",
+          "C": "obligation",
+          "D": "statement"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 106,
+        "question": "Lorasoft's customer service agents are instructed to handle minor requests ------- before forwarding calls directly to the technical support team.",
+        "options": {
+          "A": "their",
+          "B": "them",
+          "C": "they",
+          "D": "themselves"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 107,
+        "question": "The popularity of the daily television show, Celebrity Update, has declined ------- the years as entertainment news has become increasingly available online.",
+        "options": {
+          "A": "toward",
+          "B": "until",
+          "C": "as to",
+          "D": "over"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 108,
+        "question": "Scientists employed by Fluent Pharmaceuticals spend most of their time ------- medications to treat diabetes.",
+        "options": {
+          "A": "developing",
+          "B": "practicing",
+          "C": "depicting",
+          "D": "signaling"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 109,
+        "question": "------- who needs to access information on the corporate Web site must first obtain login credentials from the IT department.",
+        "options": {
+          "A": "Those",
+          "B": "Anyone",
+          "C": "Most",
+          "D": "All"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 110,
+        "question": "Flintrock Manufacturing employees are required ------- a training program in equipment safety in order to operate heavy machinery on the job.",
+        "options": {
+          "A": "completing",
+          "B": "complete",
+          "C": "to complete",
+          "D": "completely"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 111,
+        "question": "Had Mr. Shriver booked his vacation package further in advance, he ------- a much lower price.",
+        "options": {
+          "A": "is being paid",
+          "B": "would have paid",
+          "C": "would have been paid",
+          "D": "has paid"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 112,
+        "question": "Most of the conference participants arrived an hour ago, but the keynote speaker is ------- on his way.",
+        "options": {
+          "A": "still",
+          "B": "already",
+          "C": "before",
+          "D": "lately"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 113,
+        "question": "Research indicates that consumers are much more likely to purchase products from companies that show ------- for the environment.",
+        "options": {
+          "A": "compliance",
+          "B": "designation",
+          "C": "concern",
+          "D": "diversity"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 114,
+        "question": "Mr. Reed made ------- to rent a car, as he planned to meet with several clients during his trip.",
+        "options": {
+          "A": "arranges",
+          "B": "arranging",
+          "C": "arranged",
+          "D": "arrangements"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 115,
+        "question": "The latest version of the accounting software is not ------- with the operating system installed on the office computers.",
+        "options": {
+          "A": "rational",
+          "B": "challenged",
+          "C": "acquainted",
+          "D": "compatible"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 116,
+        "question": "Automat CEO Sergei Rostov's speech on trends in the high-tech industry drew an audience consisting mostly of ------- entrepreneurs.",
+        "options": {
+          "A": "aspiring",
+          "B": "aspired",
+          "C": "aspire",
+          "D": "aspiration"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 117,
+        "question": "Since acquiring the land on Taylor Avenue five years ago, the proprietor ------- multiple offers from developers wishing to buy it.",
+        "options": {
+          "A": "had been receiving",
+          "B": "will receive",
+          "C": "has received",
+          "D": "to receive"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 118,
+        "question": "BRE Manufacturing is unlikely to take chances on new names as ------- brands are more appealing to its target market.",
+        "options": {
+          "A": "familiar",
+          "B": "proficient",
+          "C": "sufficient",
+          "D": "aggressive"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 119,
+        "question": "The cast was interviewed by the press ------- the first performance of the play Father Simon.",
+        "options": {
+          "A": "rather",
+          "B": "as soon as",
+          "C": "following",
+          "D": "between"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 120,
+        "question": "Ms. Morgan's ------- responsibility as the company's head of operations is to ensure that every department is running smoothly.",
+        "options": {
+          "A": "reputable",
+          "B": "principal",
+          "C": "ethical",
+          "D": "efficient"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 121,
+        "question": "Home Choice is looking for suppliers who can ------- produce the various parts it needs for its new line of kitchen appliances.",
+        "options": {
+          "A": "afford",
+          "B": "affording",
+          "C": "affordable",
+          "D": "affordably"
+        },
+        "answer": "D"
+      },
+      {
+        "number": 122,
+        "question": "Eastern Automotive is the largest producer of vehicle parts, ------- only Dreier Limited in terms of annual profits.",
+        "options": {
+          "A": "within",
+          "B": "behind",
+          "C": "among",
+          "D": "beyond"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 123,
+        "question": "The owner of White Pearl Restaurant has always found conducting regular surveys to be a ------- way of obtaining customer feedback.",
+        "options": {
+          "A": "reliant",
+          "B": "reliability",
+          "C": "reliable",
+          "D": "relying"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 124,
+        "question": "------- students have requested on-campus housing, they must wait at least a month for an official response.",
+        "options": {
+          "A": "Once",
+          "B": "Then",
+          "C": "Yet",
+          "D": "During"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 125,
+        "question": "Mr. Trevors overcame the difficulty of speaking French by ------- improving his skills with regular practice.",
+        "options": {
+          "A": "gradually",
+          "B": "respectively",
+          "C": "intimately",
+          "D": "haltingly"
+        },
+        "answer": "A"
+      },
+      {
+        "number": 126,
+        "question": "Dong Suk Kim's promotion was approved after the sudden ------- of the company's chief executive officer.",
+        "options": {
+          "A": "gratitude",
+          "B": "departure",
+          "C": "routine",
+          "D": "adjustment"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 127,
+        "question": "The ------- script for the novel of Winding Road will serve as a screenplay for the upcoming film.",
+        "options": {
+          "A": "adapt",
+          "B": "adapted",
+          "C": "adaptability",
+          "D": "adaptively"
+        },
+        "answer": "B"
+      },
+      {
+        "number": 128,
+        "question": "------- the run-down parking lot, the rest of the building's facilities are in excellent condition.",
+        "options": {
+          "A": "Regarding",
+          "B": "Namely",
+          "C": "Other than",
+          "D": "Or else"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 129,
+        "question": "Although there are numerous household cleaners being sold, many shoppers simply purchase ------- ones are being promoted.",
+        "options": {
+          "A": "when",
+          "B": "what",
+          "C": "whichever",
+          "D": "which"
+        },
+        "answer": "C"
+      },
+      {
+        "number": 130,
+        "question": "Providing senior managers with incentive-based compensation is a ------- solution to their declining productivity.",
+        "options": {
+          "A": "variable",
+          "B": "thriving",
+          "C": "discrete",
+          "D": "practical"
+        },
+        "answer": "D"
+      }
+    ],
+    "part6": [
+      {
+        "group_id": "q131-134",
+        "directions": "Questions 131-134 refer to the following e-mail.",
+        "passage": "To: Collin McCabe <cmccabe1@ncmail.com>\nFrom: Virginia Payton <virginiapayton@clarkstel.com>\nDate: February 22\nSubject: Your Clarks Telecom bill\n\nDear Mr. McCabe,\n\nPlease be informed that your monthly Internet bill [131] $48.25 should have been paid by February 15. Payment is due immediately. Otherwise, a fee worth 5 percent of the amount owed will be added every month until your outstanding balance has been [132].\n\nAt this time, we would like to recommend that you use our automatic payment system. [133] Simply log into your account, go to \"Payment Settings,\" select \"Automatic,\" and click \"Submit.\"\n\nIf you feel that there has been a billing error, you [134] to contact us and we will gladly review your payment history.\n\nVirginia Payton\nClarks Telecom",
+        "questions": [
+          {
+            "number": 131,
+            "question": "[131]",
+            "options": {
+              "A": "totaled",
+              "B": "totally",
+              "C": "totaling",
+              "D": "totals"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 132,
+            "question": "[132]",
+            "options": {
+              "A": "canceled",
+              "B": "settled",
+              "C": "insured",
+              "D": "forgotten"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 133,
+            "question": "[133]",
+            "options": {
+              "A": "This may affect when you start receiving high-speed service.",
+              "B": "The money you owe will be paid on the scheduled date through this means.",
+              "C": "We have sent a receipt confirming payment of the charges.",
+              "D": "Your service will be restored once you send the amount that is due."
+            },
+            "answer": "B"
+          },
+          {
+            "number": 134,
+            "question": "[134]",
+            "options": {
+              "A": "encourage",
+              "B": "encouraging",
+              "C": "are encouraged",
+              "D": "will encourage"
+            },
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "group_id": "q135-138",
+        "directions": "Questions 135-138 refer to the following advertisement.",
+        "passage": "Waterview Valley Ranch is the perfect place to take a horse-riding holiday. Discover the beauty of the surrounding area and [135] about its past as our knowledgeable guides delight you with interesting stories of its history. [136] you like riding horses for relaxation or prefer a challenging ride in the open country, we have all the equipment you'll need to fulfill your requirements. [137] In addition, should you choose to bring your own horses, we can [138] them during your stay with us. This is because our stables have ample space, where they will be well cared for. Simply let us know what your party needs when you call us at 555-7823 to book your spot.",
+        "questions": [
+          {
+            "number": 135,
+            "question": "[135]",
+            "options": {
+              "A": "learned",
+              "B": "learns",
+              "C": "learn",
+              "D": "to learn"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 136,
+            "question": "[136]",
+            "options": {
+              "A": "Even",
+              "B": "Although",
+              "C": "Only if",
+              "D": "Whether"
+            },
+            "answer": "D"
+          },
+          {
+            "number": 137,
+            "question": "[137]",
+            "options": {
+              "A": "Our regularly scheduled guided tours have been overbooked.",
+              "B": "This ensures your experience with us is both safe and satisfactory.",
+              "C": "The livestock we raise is renowned for its exceptionally high quality.",
+              "D": "Your horse-riding gear must meet the strict standards of the ranch."
+            },
+            "answer": "B"
+          },
+          {
+            "number": 138,
+            "question": "[138]",
+            "options": {
+              "A": "switch",
+              "B": "race",
+              "C": "house",
+              "D": "auction"
+            },
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "group_id": "q139-142",
+        "directions": "Questions 139-142 refer to the following announcement.",
+        "passage": "Important Announcement\n\nBeaumont Hall announces with [139] that the August 17 concert featuring the pianist Sophia Kaminsky has been canceled. Ms. Kaminsky has suddenly taken ill, and organizers have deemed it best to [140] the event until further notice. If you purchased your ticket using cash, you will receive an immediate refund. On the other hand, those who paid for tickets with a credit card will not get a [141] refund. This is due to card processing regulations.\n\nIn addition to being fully refunded, everyone who purchased a ticket will receive a 20 percent discount when they make a future reservation. [142] Hopefully, the discount makes up for the inconvenience. Please accept our sincerest apologies.",
+        "questions": [
+          {
+            "number": 139,
+            "question": "[139]",
+            "options": {
+              "A": "regrettable",
+              "B": "regret",
+              "C": "regrettably",
+              "D": "regretful"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 140,
+            "question": "[140]",
+            "options": {
+              "A": "sponsor",
+              "B": "evaluate",
+              "C": "confirm",
+              "D": "postpone"
+            },
+            "answer": "D"
+          },
+          {
+            "number": 141,
+            "question": "[141]",
+            "options": {
+              "A": "previous",
+              "B": "formal",
+              "C": "prompt",
+              "D": "dependent"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 142,
+            "question": "[142]",
+            "options": {
+              "A": "We can no longer offer group rates to those without valid memberships.",
+              "B": "We cannot combine this price reduction with any other special promotion or discount.",
+              "C": "We are committed to starting each of our productions in a punctual manner.",
+              "D": "We have posted the dates and times for this performance on our Web site."
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "group_id": "q143-146",
+        "directions": "Questions 143-146 refer to the following letter.",
+        "passage": "Emma Florins\n1119 Parrish Drive\nRockville, MD 20851\n\nDear Ms. Florins,\n\nYou are cordially invited to Speaking Poetry, a recital with three of the literary world's most [143] poets. Adalberto Marte, Marceline Fontes, and Lawrence Faucher will be reading their recently published works.\n\nOur past [144] have mainly featured works adhering to a more traditional style. However, we are pleased that the diversity of the genre will be able to shine through this time. Our invited writers discard regular forms and rhyming patterns characteristic of conventional poetry. [145] Focusing on such topics as our rapidly changing society and the impact of technology, [146] poems are sure to resonate with audience members.\n\nThe recital will take place on October 10 at the Rocheport Arts Center. We hope to see you there.\n\nSincerely,\n\nAbraham Schlitz\nRocheport Arts Center",
+        "questions": [
+          {
+            "number": 143,
+            "question": "[143]",
+            "options": {
+              "A": "imminent",
+              "B": "crowded",
+              "C": "widespread",
+              "D": "promising"
+            },
+            "answer": "D"
+          },
+          {
+            "number": 144,
+            "question": "[144]",
+            "options": {
+              "A": "performances",
+              "B": "publications",
+              "C": "communications",
+              "D": "competitions"
+            },
+            "answer": "A"
+          },
+          {
+            "number": 145,
+            "question": "[145]",
+            "options": {
+              "A": "With the right publicity, these poets will be able to become well known.",
+              "B": "There are similarities between traditional and contemporary works.",
+              "C": "Instead, they rely on expressive writing to address modern issues.",
+              "D": "Many guests have much preferred the themes of our earlier recitals."
+            },
+            "answer": "C"
+          },
+          {
+            "number": 146,
+            "question": "[146]",
+            "options": {
+              "A": "his",
+              "B": "its",
+              "C": "your",
+              "D": "their"
+            },
+            "answer": "D"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "group_id": "q147-148",
+        "directions": "Questions 147-148 refer to the following advertisement.",
+        "passages": [
+          {
+            "type": "advertisement",
+            "title": "Are you letting high prices get in the way of your fitness goals?",
+            "content": "Everyone is talking about yoga these days—in magazines, on television, and even during chats with friends. But while we've all heard about the many health benefits that yoga provides, looking around yoga stores can be intimidating. With even a simple yoga mat costing up to $50 or more, yoga can seem like an expensive activity to get into!\n\nWell, not anymore. Merchandise at FlexiWorld Yoga ranges from top brand name yoga equipment to cheaper gear for beginners. And we can afford to offer all of our products at lower prices than department stores and other retailers because we operate entirely online.\n\nSo if you're thinking of trying out yoga, but don't want to overspend, head to www.flexiworldyoga.com!"
+          }
+        ],
+        "questions": [
+          {
+            "number": 147,
+            "question": "What is the advertisement mainly about?",
+            "options": {
+              "A": "A subscription to a health magazine",
+              "B": "A discounted yoga course",
+              "C": "An exercise equipment store",
+              "D": "A series of fitness videos"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 148,
+            "question": "According to the advertisement, how can FlexiWorld Yoga offer reasonable prices?",
+            "options": {
+              "A": "It retails its merchandise solely online.",
+              "B": "It buys its goods at a discount.",
+              "C": "It manufactures its own products.",
+              "D": "It has exclusive deals with suppliers."
+            },
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "group_id": "q149-150",
+        "directions": "Questions 149-150 refer to the following announcement.",
+        "passages": [
+          {
+            "type": "announcement",
+            "title": "The Ramford Center for the Arts",
+            "content": "Our center seeks a dynamic individual to join its fundraising team at our main facility in Houston. Reporting to the executive director, the fundraising associate will be responsible for requesting donations for the various year-round programs and events we hold at our center.\n\nSuccessful candidates need to possess a bachelor's degree in nonprofit management, fine arts, or a similar field. Relevant experience is preferred but not required.\n\nThe Ramford Center for the Arts offers a competitive compensation package, including medical insurance, generous vacation allowances, pension contributions, and complimentary admission to all exhibitions for its entire staff.\n\nInterested applicants should send their cover letter and résumé to Andrea Perkins (aperkins@ramfordarts.com) by Friday, October 3."
+          }
+        ],
+        "questions": [
+          {
+            "number": 149,
+            "question": "What is the purpose of the announcement?",
+            "options": {
+              "A": "To inform personnel of a change",
+              "B": "To recruit a new employee",
+              "C": "To announce a yearly event",
+              "D": "To promote a new program"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 150,
+            "question": "What is mentioned about the center?",
+            "options": {
+              "A": "It has achieved its annual fundraising goal.",
+              "B": "It allows its staff to attend exhibits for free.",
+              "C": "It offers gift packages to visitors.",
+              "D": "It only hires staff with previous experience."
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "group_id": "q151-152",
+        "directions": "Questions 151-152 refer to the following text-message chain.",
+        "passages": [
+          {
+            "type": "text-message chain",
+            "title": "",
+            "content": "Frank Cameron (2:22 P.M.): Have you heard when production on the new laptop will begin?\nLiz Cohen (2:24 P.M.): I called Stan Lowell, and he said he can't get things started at the factory for at least another four weeks.\nFrank Cameron (2:26 P.M.): That's not good news. What's causing the delay?\nLiz Cohen (2:28 P.M.): He says the plant can't proceed until the engineering department finishes testing the product. It's taking them longer than anticipated.\nFrank Cameron (2:29 P.M.): But we're scheduled to ship the computers to stores at the beginning of next month. Do you think that it will be possible to meet that target?\nLiz Cohen (2:31 P.M.): Not a chance given the current situation.\nFrank Cameron (2:33 P.M.): I see. How do you think the sales representatives will take the news?\nLiz Cohen (2:34 P.M.): They'll be fine as long as we inform them in advance. At this point, we just need to focus on shipping the best possible product to market, even if it is a bit late."
+          }
+        ],
+        "questions": [
+          {
+            "number": 151,
+            "question": "Why is production delayed?",
+            "options": {
+              "A": "A device is still in the process of being tested.",
+              "B": "A factory was forced to shut down temporarily.",
+              "C": "A new feature was recommended by sales representatives.",
+              "D": "A store has decided to cancel its order of goods."
+            },
+            "answer": "A"
+          },
+          {
+            "number": 152,
+            "question": "At 2:31 P.M., what does Ms. Cohen mean when she writes, \"Not a chance\"?",
+            "options": {
+              "A": "She thinks that too few units of an item will be produced.",
+              "B": "She is doubtful that a recently released product will have high sales.",
+              "C": "She doesn't believe a department has sufficient staff to meet a deadline.",
+              "D": "She doesn't think computers will be shipped on a planned date."
+            },
+            "answer": "D"
+          }
+        ]
+      },
+      {
+        "group_id": "q153-155",
+        "directions": "Questions 153-155 refer to the following memo.",
+        "passages": [
+          {
+            "type": "memo",
+            "title": "Speaking event",
+            "content": "To: All TechBase Staff\nFrom: John Borges\nSubject: Speaking event\nDate: August 20\n\nHello everyone,\n\nI am pleased to announce that we will have an exclusive speaking event here at the TechBase office on Wednesday, September 12. Elsa Goncalvez, author of the book The Key Components of Selling, will be coming in to talk about proven marketing strategies that she has learned over the years. Ms. Goncalvez previously worked with distinguished enterprises in the same field as our company, including two of the country's top computer manufacturers, Stentech and Microtrax, so I'm sure that her advice will be helpful to us as well.\n\nAttending the event is not mandatory, but I encourage your participation. Ms. Goncalvez will be focusing on tools and techniques that we can easily adopt, including understanding customer needs, defining unique selling points, and creating effective advertising materials for various forms of media.\n\nEveryone who attends the talk will also receive a free copy of The Key Components of Selling. I hope to see many of you there.\n\nBest wishes,\nJohn Borges\nAdministrative associate"
+          }
+        ],
+        "questions": [
+          {
+            "number": 153,
+            "question": "What is indicated about TechBase?",
+            "options": {
+              "A": "It has invited Ms. Goncalvez to speak before.",
+              "B": "It works in conjunction with two firms.",
+              "C": "It is a computer-related company.",
+              "D": "It hired a new full-time marketing specialist."
+            },
+            "answer": "C"
+          },
+          {
+            "number": 154,
+            "question": "What will NOT be discussed during the talk?",
+            "options": {
+              "A": "Comprehending customer needs",
+              "B": "Producing successful advertisements",
+              "C": "Forming effective sales teams",
+              "D": "Identifying product selling points"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 155,
+            "question": "What is true about the event?",
+            "options": {
+              "A": "It will take place at a rented venue.",
+              "B": "Attendees will be given a copy of a book.",
+              "C": "All staff members are obliged to attend it.",
+              "D": "Participants must read some material beforehand."
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "group_id": "q156-157",
+        "directions": "Questions 156-157 refer to the following notice.",
+        "passages": [
+          {
+            "type": "notice",
+            "title": "NOTICE: Residents of Smith Street and Surrounding Areas",
+            "content": "Sheltonville Town Council\n\nNOTICE: Residents of Smith Street and Surrounding Areas\n\nPlease be aware that a public forum will be held to talk about the ongoing work at the corner of Smith Street and Lincoln Avenue, where an apartment complex is in the process of being constructed. We have been informed that the project is about to enter its building phase, and this is expected to last until the end of September. During this period, it is likely that residents will be affected by road closures and increased levels of noise from the worksite. Additionally, the sidewalk will be closed off to pedestrians in the interest of safety.\n\nRepresentatives from the construction firm of Blakely and Reid will be on hand to respond to questions from residents. The forum will be moderated by Joseph Coran, member of the city council representing District 11.\n\nThe forum will begin at 6:00 P.M. on Tuesday, July 10. It will be held at the Evergreen Community Center, and everyone in the neighborhood is free to attend."
+          }
+        ],
+        "questions": [
+          {
+            "number": 156,
+            "question": "What is the main purpose of the notice?",
+            "options": {
+              "A": "To warn people of upcoming road closures",
+              "B": "To express worries about pedestrian safety",
+              "C": "To invite participation in a public discussion",
+              "D": "To solicit suggestions for the use of a space"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 157,
+            "question": "What is indicated about Joseph Coran?",
+            "options": {
+              "A": "He has questions about a building project.",
+              "B": "He will facilitate a public forum.",
+              "C": "He is an employee of a construction firm.",
+              "D": "He is running for office in Sheltonville."
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "group_id": "q158-160",
+        "directions": "Questions 158-160 refer to the following article.",
+        "passages": [
+          {
+            "type": "article",
+            "title": "Belajar University to Open High-Tech Hub",
+            "content": "Malaysia's Belajar University yesterday announced that it is beginning to build a new campus in Malacca City that is expected to be completed by the end of next year. The new campus is part of an outreach strategy to encourage students from other parts of Malaysia to apply to the prestigious university, the campuses of which are primarily located in the capital Kuala Lumpur. \"Although we have seen an increase in the number of applicants from outside Kuala Lumpur in recent years,\" said university vice-chancellor Abdullah Mohammed, \"this new campus is sure to attract even more.\"\n\nThe new campus is also being partially funded by the Malaysian government, which considers it a key part of its plan to develop the southern part of the country into a high-technology hub. Because of this, the campus will feature a number of state-of-the-art computer laboratories that will be used to develop new types of microchips and computer processors. A new high-speed rail link between the capital and Malacca City is also being constructed by the government as part of the process of encouraging technology companies to relocate to the smaller town.\n\nQing Weihai, governor of Malacca State, said, \"We welcome this decision by the Malaysian government and Belajar University and expect the new campus to create thousands of new jobs in the region by encouraging businesses to move here.\""
+          }
+        ],
+        "questions": [
+          {
+            "number": 158,
+            "question": "What is stated about Belajar University?",
+            "options": {
+              "A": "It is trying to attract students from diverse areas of the nation.",
+              "B": "It is celebrating the 100th year since its establishment.",
+              "C": "It has recently opened a new students' union building.",
+              "D": "It has the highest entrance standards in the country."
+            },
+            "answer": "A"
+          },
+          {
+            "number": 159,
+            "question": "What is being built by the Malaysian government?",
+            "options": {
+              "A": "An employee training campus",
+              "B": "A wider road to the capital",
+              "C": "A fast railway connection",
+              "D": "A residence for students"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 160,
+            "question": "What does Qing Weihai anticipate will happen?",
+            "options": {
+              "A": "A state will receive more foreign visitors.",
+              "B": "A major road will be reopened to the public.",
+              "C": "Construction of a school building will be expedited.",
+              "D": "Local citizens will have more employment opportunities."
+            },
+            "answer": "D"
+          }
+        ]
+      },
+      {
+        "group_id": "q161-164",
+        "directions": "Questions 161-164 refer to the following e-mail.",
+        "passages": [
+          {
+            "type": "e-mail",
+            "title": "Publication information",
+            "content": "TO: Carolyn Shah <cshah@qrcbooks.com>\nFROM: Edwin Lewis <elewis@caspub.com>\nSUBJECT: Publication information\nDATE: July 19\n\nDear Ms. Shah,\n\nI am pleased to tell you that Casper Publishing has come out with an important title that I think QRC Bookstore will be interested in selling. — [1] —.\n\nThe 10th edition of Economics for Business has been completed and contains revised multimedia content and new exercises in DVD format. We have one version for students and another for teachers. The students' version is packaged for affordability, while the teachers' version features several premium extras, such as preloaded presentation. — [2] —. Seeing as QRC Bookstore mainly sells university textbooks, it would make perfect sense for your shop to carry both versions of this publication or any of the other new titles in our catalog. — [3] —.\n\nIf you are interested in ordering, download the form on our Web site at www.caspub.com/orders and send it to us by post. — [4] —. For any further information, feel free to respond to this e-mail or contact me directly at 555-3044.\n\nBest Regards,\nEdwin Lewis"
+          }
+        ],
+        "questions": [
+          {
+            "number": 161,
+            "question": "Why was the e-mail written?",
+            "options": {
+              "A": "To request an updated product list",
+              "B": "To give feedback on a purchase",
+              "C": "To inquire about a popular book",
+              "D": "To promote a publication's release"
+            },
+            "answer": "D"
+          },
+          {
+            "number": 162,
+            "question": "What is implied about QRC Bookstore?",
+            "options": {
+              "A": "It is owned by a former professor.",
+              "B": "It sells all of its products online.",
+              "C": "Its customers include university students.",
+              "D": "Its products are discounted for teachers."
+            },
+            "answer": "C"
+          },
+          {
+            "number": 163,
+            "question": "How can Ms. Shah place a product order?",
+            "options": {
+              "A": "By submitting a form online",
+              "B": "By mailing a document",
+              "C": "By calling a phone number",
+              "D": "By responding to an e-mail"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 164,
+            "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"These may be used in the classroom along with the extensive lesson plans found in each chapter.\"",
+            "options": {
+              "A": "[1]",
+              "B": "[2]",
+              "C": "[3]",
+              "D": "[4]"
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "group_id": "q165-168",
+        "directions": "Questions 165-168 refer to the following online chat.",
+        "passages": [
+          {
+            "type": "online chat",
+            "title": "",
+            "content": "Clara Dalton [2:01 P.M.]: Good afternoon, everyone. As I'm sure you all heard on Monday, the board of directors has scheduled the opening of the Erik Masterson art exhibit for next month. We need to start letting people know about it, and I'd like to get a sense of how everything's going.\nAaron Cobble [2:04 P.M.]: I finished designing the personalized invitations for everyone who attended our last exhibition, but the mailing list hasn't been compiled yet. George, do you think this might cause any problems?\nGeorge Duffy [2:10 P.M.]: A delay of one day is fine. But the guests should receive their invitations before Saturday when we publish a press release about the opening. So, we need to get them to the courier by Thursday at the very latest.\nClara Dalton [2:12 P.M.]: All right. I'll ask Steven to take care of it. Deborah, how about the posters?\nDeborah Emerson [2:14 P.M.]: They're ready to be printed. Do you have any thoughts on where I should tell our volunteers to put them up?\nClara Dalton [2:16 P.M.]: I've heard that Masterson's work is popular with college students.\nDeborah Emerson [2:20 P.M.]: Oh, what about Randall University? The gallery is within walking distance of it.\nClara Dalton [2:21 P.M.]: That sounds great. Maybe we should give a presentation on campus to promote the exhibit as well.\nDeborah Emerson [2:22 P.M.]: Sure. I'll call the university to check on that."
+          }
+        ],
+        "questions": [
+          {
+            "number": 165,
+            "question": "What kind of organization does Ms. Dalton most likely work for?",
+            "options": {
+              "A": "An art gallery",
+              "B": "A local university",
+              "C": "An advertising agency",
+              "D": "A printing company"
+            },
+            "answer": "A"
+          },
+          {
+            "number": 166,
+            "question": "When will the event be formally announced?",
+            "options": {
+              "A": "On Monday",
+              "B": "On Tuesday",
+              "C": "On Thursday",
+              "D": "On Saturday"
+            },
+            "answer": "D"
+          },
+          {
+            "number": 167,
+            "question": "At 2:20 P.M., what does Ms. Emerson mean when she writes, \"what about Randall University\"?",
+            "options": {
+              "A": "She thinks a school may be a good place to promote an event.",
+              "B": "She believes that she will be able to recruit student volunteers.",
+              "C": "She intends to have some posters printed out at a local college.",
+              "D": "She would like to try displaying art at Randall University."
+            },
+            "answer": "A"
+          },
+          {
+            "number": 168,
+            "question": "What is NOT mentioned as a method of publicizing the opening?",
+            "options": {
+              "A": "Speaking at a university",
+              "B": "Contacting previous visitors",
+              "C": "Posting advertisements",
+              "D": "Updating a Web site"
+            },
+            "answer": "D"
+          }
+        ]
+      },
+      {
+        "group_id": "q169-171",
+        "directions": "Questions 169-171 refer to the following letter.",
+        "passages": [
+          {
+            "type": "letter",
+            "title": "",
+            "content": "Adam Suzuki\n12 Westbourne Avenue\nHull, UK, HU2 7HF\nNovember 22\n\nDear Mr. Suzuki,\n\nI am pleased to announce a change to your North Bank account. Currently, you can overdraw up to £250 from your checking account when needed. — [1] —. As you have been a loyal customer with us over the past three years and have an excellent credit rating, your overdraft limit has been increased to £750. The increase will take effect at the beginning of next month. — [2] —.\n\nIn addition, I would like to let you know that you are eligible to apply for our Silver Spender and Graduate Spender credit cards. — [3] —. Some details about the benefits of each card are listed below. If you are interested in applying for either card, please fill out the attached form and send it to us. There is no need to do anything else as you have already been preapproved. — [4] —.\n\nSilver Spender Credit Card\n• 10% discount on movie admission fees\n• 0% interest on installment plans for up to 24 months\n• £25 annual fee\n\nGraduate Spender Credit Card\n• Access to Greyline Air's VIP lounges in airports nationwide\n• 0% interest on installment plans for up to 12 months\n• £45 annual fee\n\nShould you have any questions or concerns, please feel free to contact us at any time.\n\nNorth Bank Customer Service Team"
+          }
+        ],
+        "questions": [
+          {
+            "number": 169,
+            "question": "What is the purpose of the letter?",
+            "options": {
+              "A": "To ask for details regarding an application",
+              "B": "To describe some beneficial developments",
+              "C": "To explain changes in bank regulations",
+              "D": "To suggest switching to a newer product"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 170,
+            "question": "What is indicated about the Graduate Spender Credit Card?",
+            "options": {
+              "A": "It can only be applied for in person.",
+              "B": "It has a lower annual fee than the Silver Spender.",
+              "C": "It involves a lengthy approval process.",
+              "D": "It offers interest-free installments for up to one year."
+            },
+            "answer": "D"
+          },
+          {
+            "number": 171,
+            "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"Other terms and conditions associated with your account will remain the same.\"",
+            "options": {
+              "A": "[1]",
+              "B": "[2]",
+              "C": "[3]",
+              "D": "[4]"
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "group_id": "q172-175",
+        "directions": "Questions 172-175 refer to the following article.",
+        "passages": [
+          {
+            "type": "article",
+            "title": "Leading Fitness Trends",
+            "content": "Health First Magazine\nApril Edition\n\nLeading Fitness Trends\n\nSpring is always the busiest season for fitness centers as individuals prepare to get in shape for the coming summer months. And gym owners hoping to have a competitive edge over other facilities will be pleased to know that popular health equipment manufacturer RockTech has recently launched a new line of fitness equipment with some impressive features.\n\nThe head of product design for RockTech, Nancy Flores, said that the new equipment is sleek in appearance and incorporates the latest technological advances. The RockRunner treadmill, for instance, automatically adjusts settings, such as speed and incline, in correspondence with satellite map routes to give users the experience of jogging in real terrain.\n\nFurthermore, Ms. Flores noted that RockTech will soon release a new line of weight training equipment. The machines will include highly sophisticated, newly developed calorie counters that can be synchronized with wearable fitness trackers. The machines will also include calorie counters. \"People focused on burning calories can easily see their progress,\" Ms. Flores explained. She also stated that RockTech plans to have this feature on all newly released products.\n\nThese and other products are available on the company's Web site, www.rocktech.com, but they are presently only sold to gyms and health clubs."
+          }
+        ],
+        "questions": [
+          {
+            "number": 172,
+            "question": "What is the main topic of the article?",
+            "options": {
+              "A": "The opening of a fitness center",
+              "B": "The popularity of an exercise class",
+              "C": "The release of workout products",
+              "D": "The recall of a health equipment"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 173,
+            "question": "What is NOT mentioned about the RockRunner?",
+            "options": {
+              "A": "It makes use of recent technology.",
+              "B": "It corresponds with map data.",
+              "C": "It can be purchased in select locations.",
+              "D": "It allows users to feel as if they were jogging."
+            },
+            "answer": "C"
+          },
+          {
+            "number": 174,
+            "question": "The word \"edge\" in paragraph 1, line 3, is closest in meaning to",
+            "options": {
+              "A": "approach",
+              "B": "sharpness",
+              "C": "advantage",
+              "D": "threshold"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 175,
+            "question": "What is indicated about RockTech?",
+            "options": {
+              "A": "It sponsors an assortment of athletics competitions.",
+              "B": "It will include a new feature in its upcoming products.",
+              "C": "It offers discounts to gyms and health clubs.",
+              "D": "It has regional offices all over the world."
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "group_id": "q176-180",
+        "directions": "Questions 176-180 refer to the following invitation and list.",
+        "passages": [
+          {
+            "type": "invitation",
+            "title": "Come to the SRA's Annual Wine Tasting Fund-raiser!",
+            "content": "Come to the SRA's Annual Wine Tasting Fund-raiser!\n\nSaturday, November 5\nfrom 6:00 P.M. to 11:00 P.M.\nat the Lambdia Hotel Grand Ballroom\n\nThe Sight Right Association (SRA) invites you to our yearly fund-raiser. You can indulge in a variety of gourmet foods and upscale wines specially selected to appeal to discriminating tastes. Enjoy the musical stylings of Willis Gustavo's Jazz Ensemble, which will be on hand to perform a number of tunes.\n\nDuring the fund-raiser, an auction will also be held, where guests will have the opportunity to place bids on all of the wines served at the event. After a short welcome speech by an SRA representative, chefs will begin preparing food at stations placed around the Grand Ballroom. Guests are free to help themselves to food while they socialize. And don't forget to visit the reception area, where you can enter a draw to win a free bottle of Miller-Ortega Riesling wine!\n\nTickets:\n$85 for SRA members/$145 for SRA member couples\n$95 for non-SRA members/$165 for non-SRA member couples\n* Must be reserved by calling 555-3509 no later than November 1.\n\nAll proceeds raised during the event will be used to provide the needy with eye care and prescription lenses."
+          },
+          {
+            "type": "list",
+            "title": "SRA Fund-raiser Food and Wine List",
+            "content": "| Location | Food | Wines |\n| --- | --- | --- |\n| Station One | - Spinach and cranberry salad<br>- Blackberry compote with roasted chestnut cream | **White wine**<br>Chateau 54 Sauvignon Blanc |\n| Station Two | - Focaccia bread with mozzarella and black olives<br>- Mushroom risotto | **White wine**<br>Mosdel Pinot Gris |\n| Station Three | - Salmon with brown sugar and mustard glaze | **Red wine**<br>Pewter Vineyards Pinot Noir |\n| Dessert Station | - Assortment of miniature pastries<br>- Chocolate truffles<br>- Hot coffee and tea | **Sparkling wine**<br>Wildfelt Moscato |\n\nChefs will prepare small plates of food item that guests can pick up at each station with their wine."
+          }
+        ],
+        "questions": [
+          {
+            "number": 176,
+            "question": "What is NOT true about the event?",
+            "options": {
+              "A": "It is cheaper for SRA members to attend.",
+              "B": "A live band will entertain guests.",
+              "C": "There is a deadline to reserve tickets.",
+              "D": "It will take place throughout the weekend."
+            },
+            "answer": "D"
+          },
+          {
+            "number": 177,
+            "question": "In the invitation, the word \"upscale\" in paragraph 1, line 2, is closest in meaning to",
+            "options": {
+              "A": "eligible",
+              "B": "exclusive",
+              "C": "economical",
+              "D": "excessive"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 178,
+            "question": "Why might guests visit the reception area?",
+            "options": {
+              "A": "To sample a salad with some red wine",
+              "B": "To enter to win a bottle of wine",
+              "C": "To pay for tickets to the fund-raiser",
+              "D": "To check out items available for auction"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 179,
+            "question": "What is NOT indicated in the list?",
+            "options": {
+              "A": "Wines will be provided to diners at every station.",
+              "B": "Guests will be served meals at their tables by staff.",
+              "C": "Seafood dishes will be prepared in Station Three.",
+              "D": "Guests will be able to enjoy hot beverages at Dessert Station."
+            },
+            "answer": "B"
+          },
+          {
+            "number": 180,
+            "question": "What can be inferred about the auction?",
+            "options": {
+              "A": "It will set the starting bids for available items.",
+              "B": "Items there have been donated by SRA members.",
+              "C": "Participants will receive a box of chocolate truffles.",
+              "D": "Sparkling wine will be available to bid on."
+            },
+            "answer": "D"
+          }
+        ]
+      },
+      {
+        "group_id": "q181-185",
+        "directions": "Questions 181-185 refer to the following notice and e-mail.",
+        "passages": [
+          {
+            "type": "notice",
+            "title": "Notice to Visitors",
+            "content": "We've had a great summer season here at the Newport County Amusement Park and Zoo, but as the winter season approaches, we're going to be closing sections of the park for maintenance and repairs.\n\nStarting on October 1, the Mach One rollercoaster will be closed for inspections and repairs until the beginning of the next summer season. In addition, certain animal enclosures will be shut down temporarily to allow workers to perform needed renovations. These measures are vital to ensure the future safety and enjoyment of all park visitors.\n\nTo make up for the inconvenience, we have some new winter attractions coming up. The days may be getting shorter, but that just gives us a great excuse to hold a fireworks show, every day at 7 P.M. from October 22 to December 4. On top of that, all of our restaurants will be serving our brand-new winter menu starting on September 30. The menu was created by celebrity chef Alexandre Mapouche and is based on European winter delicacies.\n\nIf you have any questions about these changes, please ask any member of our helpful and informative staff."
+          },
+          {
+            "type": "e-mail",
+            "title": "Feedback",
+            "content": "To: Customer Relations <relations@ncapz.com>\nFrom: Sandra Higson <Sandra1973@zipmail.com>\nSubject: Feedback\n\nDear madam or sir,\n\nI would like to report an issue I had at the Newport County Amusement Park and Zoo regarding the closure of one of your rides. My son had wanted to visit your park for many months so he could ride the Mach One rollercoaster. I finally found the time to take him, and he was very excited. However, upon arriving at the park, we saw the notice outside the ticket office announcing that the Mach One was closed for maintenance.\n\nWe decided to visit the park anyway, as we had traveled all the way from Colebrook, but my son was very disappointed. I believe that, at the very least, we are owed an apology since you did not announce the closure on your Web site; and perhaps we are even entitled to a refund of half the amount we paid for our tickets because the attraction we were most interested in was unavailable.\n\nI look forward to your response.\n\nSandra Higson"
+          }
+        ],
+        "questions": [
+          {
+            "number": 181,
+            "question": "What is suggested about the daily fireworks show?",
+            "options": {
+              "A": "It will temporarily be halted during maintenance.",
+              "B": "It will take place in a new section of the park.",
+              "C": "It is not usually held during the summer.",
+              "D": "It costs visitors extra to watch."
+            },
+            "answer": "C"
+          },
+          {
+            "number": 182,
+            "question": "What is mentioned about the winter menu?",
+            "options": {
+              "A": "It was designed by a well-known chef.",
+              "B": "It was created upon the suggestion of visitors.",
+              "C": "It will be available until December 4.",
+              "D": "It will not be served in some park restaurants."
+            },
+            "answer": "A"
+          },
+          {
+            "number": 183,
+            "question": "Why was the e-mail written?",
+            "options": {
+              "A": "To suggest ways to improve service",
+              "B": "To point out some safety concerns",
+              "C": "To make a complaint about a situation",
+              "D": "To get details about a roller coaster"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 184,
+            "question": "What is implied about Ms. Higson?",
+            "options": {
+              "A": "She was unable to see the fireworks.",
+              "B": "She went to the park after October 1.",
+              "C": "She plans to visit the zoo in December.",
+              "D": "She lives in the same city as the park."
+            },
+            "answer": "B"
+          },
+          {
+            "number": 185,
+            "question": "What does Ms. Higson request?",
+            "options": {
+              "A": "A replacement ticket",
+              "B": "A partial return of a payment",
+              "C": "A coupon for free parking",
+              "D": "A map of the amusement park"
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "group_id": "q186-190",
+        "directions": "Questions 186-190 refer to the following article, notice, and form.",
+        "passages": [
+          {
+            "type": "article",
+            "title": "Tea Tree Eco-Resorts Set to Open in Mexico by Year's End",
+            "content": "By Consuela Hidalgo\n\nInternational hotel chain Tea Tree Eco-Resorts is in the final stages of building a 22-acre resort on Mexico's Mayan Riviera. The first visitors are expected to arrive by December 21. Like other Tea Tree Eco-Resorts in the Philippines, Thailand, and Greece, the new hotel will be as eco-friendly as possible. \"We have solar panels generating electricity and heating the water, for instance. Furthermore, none of the local farmers from whom we source our ingredients for regional specialties, such as pork wrapped in banana leaves and citrus-marinated chicken soup, use any chemical pesticides at all,\" said general manager Jose Perez. The plan is for the facilities to be built around naturally growing trees and plant life, with structures blending in with the jungle. Further details can be found at www.teatreeecoresorts.com/mexico."
+          },
+          {
+            "type": "notice",
+            "title": "Tea Tree Eco-Resorts, Mayan Riviera",
+            "content": "Welcome to our beautiful compound in the stunning Mayan Riviera!\nWe have several activities scheduled for this week!\n\nMonday, January 17: Sailboat tour ($22)\nJoin us for a 2-hour sailboat ride that stops at local islands. There's even a chance of spotting some dolphins! Sign up in advance at the guest activities counter.\n\nWednesday, January 19: Visit to wildlife park ($38)\nTravel by bus to a local wildlife park to view indigenous animals and plants. Departure will be at 9 A.M., and guests will be back by 5 P.M. Sandwiches will be provided at a restaurant near the park. Advance bookings are necessary.\n\nThursday, January 20: Tour of ancient Mayan city ($57)\nA bus will take guests to an archaeological site where a pyramid and other ancient structures can be found. Departure will be at 8 A.M., and guests will be back by 5 P.M. Lunch is included in the cost of admission, and bookings are required.\n\nSaturday, January 22: Beach party (Free for all guests)\nVisit the beach between 11:30 A.M. and 2:30 P.M. for an outdoor barbecue, and sample the wonderful flavors in our grilled seafood, citrus-marinated chicken soup, and pork wrapped in banana leaves!\n\n*Prices indicated are in US dollars."
+          },
+          {
+            "type": "form",
+            "title": "Tea Tree Eco-Resorts, Mayan Riviera",
+            "content": "We hope you enjoyed your stay with us. Please take a few moments to provide us with feedback. Return the completed card to a front desk staff member.\n\n| Field | Value | Field | Value |\n| --- | --- | --- | --- |\n| NAME | Henry O'Neil | DATE(S) OF STAY | January 17-23 |\n| E-MAIL | Henoneil@awesomepost.com | PHONE | (905)555-6948 |\n\nWere you satisfied with the following during your stay? If the answer is \"NO\", please leave a short comment at the bottom with an explanation.\n\n| Category | Rating | Category | Rating |\n| --- | --- | --- | --- |\n| Cleanliness of facilities | YES [x] / NO [ ] | Service of staff | YES [x] / NO [ ] |\n| Meals and meal service | YES [x] / NO [ ] | Daily activities | YES [ ] / NO [x] |\n\nCOMMENTS:\nMy wife and I were interested in a sailboat tour but were informed that the boat only held 24 passengers and was full. So, we inquired about a trip to the Mayan city, but it was also completely booked. Thankfully, we managed to go on the January 19 outing and enjoyed it very much. I recommend that more seats be available for trips, especially during high tourist season.\n\nThank you for your time!"
+          }
+        ],
+        "questions": [
+          {
+            "number": 186,
+            "question": "What is NOT indicated about Tea Tree Eco-Resorts?",
+            "options": {
+              "A": "Its new facility uses solar power as a source of energy.",
+              "B": "It has built several resorts around the globe.",
+              "C": "It posted details about a new branch on a Web site.",
+              "D": "Its Mexican resort is the company's largest yet."
+            },
+            "answer": "D"
+          },
+          {
+            "number": 187,
+            "question": "In the notice, the word \"spotting\" in paragraph 2, line 2, is closest in meaning to",
+            "options": {
+              "A": "circling",
+              "B": "pointing",
+              "C": "observing",
+              "D": "marking"
+            },
+            "answer": "C"
+          },
+          {
+            "number": 188,
+            "question": "During which activity were guests served a regional specialty?",
+            "options": {
+              "A": "Sailboat tour",
+              "B": "Visit to wildlife park",
+              "C": "Tour of ancient Mayan city",
+              "D": "Beach party"
+            },
+            "answer": "D"
+          },
+          {
+            "number": 189,
+            "question": "What does Mr. O'Neil mention about the Mayan Riviera hotel?",
+            "options": {
+              "A": "It cancelled several planned daily activities.",
+              "B": "It was fully booked during his recent stay.",
+              "C": "It offered satisfactory levels of cleanliness.",
+              "D": "It needed improvement in regard to meal service."
+            },
+            "answer": "C"
+          },
+          {
+            "number": 190,
+            "question": "What can be inferred about Mr. O'Neil?",
+            "options": {
+              "A": "He had an unpleasant experience on a boat trip.",
+              "B": "He and his wife saw some wild animals.",
+              "C": "He was unable to extend a hotel booking.",
+              "D": "He enjoyed touring an ancient Mayan city."
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "group_id": "q191-195",
+        "directions": "Questions 191-195 refer to the following letter, e-mail, and form.",
+        "passages": [
+          {
+            "type": "letter",
+            "title": "",
+            "content": "February 4\n\nDear Ms. Montessori,\n\nAs you are probably aware, my contract will expire at the end of March. We have already discussed my plan to retire, so hopefully this does not come as a surprise. This letter serves as official notification of my intention to step down as the company's vice president of finance. I would be happy to stay on for an additional month to train and assist any replacement you choose.\n\nI have truly enjoyed my time with Homestead Properties and appreciate all the support I've been provided over the years. I will miss working with my wonderful colleagues, but I will stay in touch.\n\nThank you very much for all the opportunities you and the board of directors have afforded me.\n\nSincerely,\n\nEdward Grainger"
+          },
+          {
+            "type": "e-mail",
+            "title": "Party preparations",
+            "content": "TO: Florence Ingram <f.ingram@homesteadprop.com>\nFROM: Elizabeth Montessori <e.montessori@homesteadprop.com>\nSUBJECT: Party preparations\nDATE: March 12\n\nHi Florence,\n\nYou've likely heard the news about Mr. Grainger. I would like to organize a dinner party in his honor. You did such a wonderful job of planning our awards dinner last fall, and I was wondering if you'd be willing to take care of the arrangements for this event as well.\n\nWe plan to spend up to $6,000 on the party's location. The board and I will take care of the gift. The date would be March 27, which is a Friday. I can send you a list of people we would like to invite later today. I imagine 50-60 people will be attending.\n\nAs before, the company is happy to offer you an extra $500 on your next paycheck as compensation. Please let me know if you're interested as soon as possible.\n\nRegards,\n\nElizabeth Montessori\nCOO, Homestead Properties Inc."
+          },
+          {
+            "type": "form",
+            "title": "EVENT RESERVATION CONFIRMATION: Grand-Mont Hotel",
+            "content": "| Field | Value | Field | Value |\n| --- | --- | --- | --- |\n| NAME | Florence Ingram | COMPANY (If applicable) | Homestead Properties Inc. |\n| PHONE | (604)555-4995 | E-MAIL | f.ingram@homesteadprop.com |\n| EVENT DATE | March 27 | EVENT TIME | 7 P.M.-10:00 P.M. |\n| EVENT SITE | 2nd Floor, Victoriana Event Hall | | |\n\nNUMBER OF GUESTS: 66\nMEAL: Four-course dinner with beef, fish, and vegetarian options\nBEVERAGES: Open bar with soft drinks, wine, and cocktails\nSPECIAL REQUESTS: Microphone and projection system with sound\n\nThis form serves as confirmation of your reservation, and receipt of your $2,500 deposit. The remaining funds of $2,500 is payable upon the conclusion of your event. In case of cancellation, the deposit is non-refundable. The total amount of $5,000 is inclusive of a $500 service fee."
+          }
+        ],
+        "questions": [
+          {
+            "number": 191,
+            "question": "What is the main purpose of the letter?",
+            "options": {
+              "A": "To confirm an intention to resign from a position",
+              "B": "To turn down an offer for an executive job",
+              "C": "To notify an executive of a contract extension",
+              "D": "To request some time off for personal reasons"
+            },
+            "answer": "A"
+          },
+          {
+            "number": 192,
+            "question": "According to the e-mail, what will Ms. Ingram be offered?",
+            "options": {
+              "A": "A printed invitation for a party",
+              "B": "A monetary incentive",
+              "C": "A complimentary meal",
+              "D": "A copy of an agreement"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 193,
+            "question": "What did Ms. Montessori ask Ms. Ingram to do?",
+            "options": {
+              "A": "Arrange a corporate awards ceremony",
+              "B": "Plan a retirement celebration",
+              "C": "Purchase a gift for an employee",
+              "D": "Recruit volunteers to decorate a venue"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 194,
+            "question": "What can be inferred about Ms. Ingram?",
+            "options": {
+              "A": "She reserved two rooms for the event.",
+              "B": "She invited fewer guests than expected.",
+              "C": "She needs to submit a deposit to the venue soon.",
+              "D": "She booked an event venue under budget."
+            },
+            "answer": "D"
+          },
+          {
+            "number": 195,
+            "question": "What has Ms. Ingram requested from the Grand-Mont Hotel?",
+            "options": {
+              "A": "An invoice for the total cost",
+              "B": "Some recommendations for menus",
+              "C": "Some audiovisual equipment",
+              "D": "A choice of two meal options"
+            },
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "group_id": "q196-200",
+        "directions": "Questions 196-200 refer to the following advertisement, text message, and notice.",
+        "passages": [
+          {
+            "type": "advertisement",
+            "title": "DOWNTOWN APARTMENT FOR RENT: 543 Mapleton Street",
+            "content": "http://www.portkeyclassifieds.com/realestate/rentals\nHOME | CLASSIFIED ADS | POST AN AD | CONTACT\n\nDOWNTOWN APARTMENT FOR RENT: 543 Mapleton Street\n\nThis 950-square-foot apartment is located in the city center in Portsmouth Residential Towers. It contains two bedrooms, a living room, a kitchen and dining area, a bathroom, and a balcony. The residence is conveniently located near a bus stop, a subway station, and a shopping mall. The unit comes with a space in the building's parking garage, the cost of which is included in the $1,900 monthly rental fee. New wallpaper will be installed for the new resident. The apartment will be ready to move into as soon as this work is finished on August 30. Contracts are for one or two years with the possibility of an extension. A one-month security deposit is required along with a reference from a previous landlord. To book a viewing, please contact George Lee at georgelee@vendorrealty.com, or call him at 555-0393."
+          },
+          {
+            "type": "text message",
+            "title": "",
+            "content": "From: Neil Kaplan (555-3004)\nTo: George Lee (555-0393)\nReceived: May 25, 4:10 P.M.\n\nThank you for showing me the three apartment units this morning. I'm interested in renting the one on Mapleton Street. I understand that the owner needs a reference prior to signing any agreement. He is free to contact Miranda Chase at mirandach@verymail.com. She's the proprietor of the studio apartment I currently rent in Tanner Hill Condominiums. I am prepared to sign a two-year contract and move into the unit as soon as the new wallpaper has been put up. Thank you."
+          },
+          {
+            "type": "notice",
+            "title": "NOTICE: All Tenants",
+            "content": "Tanner Hill Condominiums' underground parking facility will undergo resurfacing this week. The work will begin on Monday, May 30, and last until Friday. The facility will be inaccessible not only during this time but also on the weekend as the concrete requires time to set properly. Tenants may once again park their vehicles in the garage on Monday, June 6.\n\nTenants should move their vehicles one day before the work begins, to the Downtown Parkade located across the road at 168 Beauregard Avenue. Simply pick up a temporary pass from the facility's ticket office, and display it on your vehicle's windshield.\n\nWe apologize for any inconvenience and disturbance the work may cause. For more details, contact the building's administrative office at 555-4958 during its operating hours of 8 A.M. to 4 P.M., from Monday to Friday."
+          }
+        ],
+        "questions": [
+          {
+            "number": 196,
+            "question": "What is included in the advertised apartment's rental fee?",
+            "options": {
+              "A": "A security system",
+              "B": "A parking spot",
+              "C": "Maintenance costs",
+              "D": "Electricity charges"
+            },
+            "answer": "B"
+          },
+          {
+            "number": 197,
+            "question": "What is implied about Mr. Kaplan?",
+            "options": {
+              "A": "He should pay the rent by bank transfer.",
+              "B": "He must renew a contract after one year.",
+              "C": "He will not be refunded a deposit.",
+              "D": "He can move into a unit from August 30."
+            },
+            "answer": "D"
+          },
+          {
+            "number": 198,
+            "question": "Who is Miranda Chase?",
+            "options": {
+              "A": "The owner of a residential unit",
+              "B": "A representative of a real estate agency",
+              "C": "The administrator of Portsmouth Residential Towers",
+              "D": "A tenant of a Mapleton Street apartment"
+            },
+            "answer": "A"
+          },
+          {
+            "number": 199,
+            "question": "What will Mr. Kaplan probably have to do on May 29?",
+            "options": {
+              "A": "Park his vehicle at the DownTown Parkade",
+              "B": "Move his belongings into an apartment",
+              "C": "Meet with a landlord to sign an agreement",
+              "D": "Purchase a pass at a ticketing office"
+            },
+            "answer": "A"
+          },
+          {
+            "number": 200,
+            "question": "What is indicated about Tanner Hill Condominiums?",
+            "options": {
+              "A": "It currently has no vacant units.",
+              "B": "It charges monthly fees for parking.",
+              "C": "It is situated nearby public transit.",
+              "D": "It closes its office on weekends."
+            },
+            "answer": "D"
+          }
+        ]
+      }
+    ]
+  }
+}

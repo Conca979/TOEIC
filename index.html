@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackers TOEIC 3 — Interactive Practice & Official Scoring</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231769e0'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='system-ui,sans-serif' font-size='18' font-weight='700' fill='%23fff'%3ET%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand-group">
+        <button type="button" id="home-btn" class="brand-btn">Hackers TOEIC 3</button>
+        <label class="sr-only" for="test-select">Select Test</label>
+        <select id="test-select" class="select-control" aria-label="Select Test">
+          <option value="overview">All Tests (Overview)</option>
+        </select>
+      </div>
+
+      <div id="test-controls" class="header-controls" hidden>
+        <div class="control-group">
+          <label class="sr-only" for="mode-select">Exam Mode</label>
+          <select id="mode-select" class="select-control" aria-label="Exam Mode">
+            <option value="official">Official Timed (45m L + 75m R)</option>
+            <option value="practice">Practice (Untimed)</option>
+          </select>
+
+          <div class="timer-pill" aria-live="off">
+            <span id="timer-section" class="timer-section">Listening</span>
+            <span id="timer-display" class="timer-value">45:00</span>
+            <button type="button" id="timer-toggle-btn" class="btn btn-subtle btn-xs" hidden>Pause</button>
+          </div>
+        </div>
+
+        <div class="control-group">
+          <label class="switch-control" for="script-toggle">
+            <input id="script-toggle" type="checkbox" switch>
+            <span class="switch-text">Listening Script</span>
+          </label>
+
+          <button type="button" id="palette-open-btn" class="btn btn-outline">
+            Questions (<span id="answered-count">0</span>/200)
+          </button>
+          <button type="button" id="submit-btn" class="btn btn-primary">Submit &amp; Score</button>
+          <button type="button" id="reset-btn" class="btn btn-outline">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <nav id="part-nav" class="part-nav" aria-label="Test Parts" hidden>
+      <div class="part-nav-inner">
+        <div class="part-pills" role="tablist" aria-label="TOEIC Parts">
+          <button type="button" class="pill-btn" data-part="1">Part 1 (1-6)</button>
+          <button type="button" class="pill-btn" data-part="2">Part 2 (7-31)</button>
+          <button type="button" class="pill-btn" data-part="3">Part 3 (32-70)</button>
+          <button type="button" class="pill-btn" data-part="4">Part 4 (71-100)</button>
+          <button type="button" class="pill-btn" data-part="5">Part 5 (101-130)</button>
+          <button type="button" class="pill-btn" data-part="6">Part 6 (131-146)</button>
+          <button type="button" class="pill-btn" data-part="7">Part 7 (147-200)</button>
+        </div>
+
+        <div class="filter-group">
+          <label class="checkbox-inline" for="blind-toggle">
+            <input id="blind-toggle" type="checkbox">
+            <span>Blind Listening (Hide Part 3/4 Text)</span>
+          </label>
+          <label class="sr-only" for="filter-select">Filter Questions</label>
+          <select id="filter-select" class="select-control select-sm" aria-label="Filter Questions">
+            <option value="all">Filter: All</option>
+            <option value="unanswered">Unanswered</option>
+            <option value="flagged">Flagged</option>
+            <option value="incorrect" disabled>Incorrect</option>
+          </select>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content" class="main-shell">
+    <section id="overview-view" class="overview-view" aria-labelledby="overview-heading">
+      <div class="overview-hero">
+        <div>
+          <h1 id="overview-heading">TOEIC Practice &amp; Official Exam Simulator</h1>
+          <p class="muted-text">
+            10 full-length Hackers TOEIC 3 tests with official 45-minute Listening + 75-minute Reading countdowns,
+            scaled 10–990 scoring, interactive Listening script &amp; transcript notes, and local browser persistence.
+          </p>
+        </div>
+        <div class="hero-actions">
+          <button type="button" id="export-btn" class="btn btn-outline">Export Progress</button>
+          <label class="btn btn-outline file-btn" for="import-input">
+            Import Progress
+            <input id="import-input" type="file" accept="application/json" hidden>
+          </label>
+        </div>
+      </div>
+
+      <div id="test-grid" class="test-grid"></div>
+
+      <section class="history-section" aria-labelledby="history-heading">
+        <div class="section-header">
+          <h2 id="history-heading">Saved Attempt History</h2>
+          <button type="button" id="clear-history-btn" class="btn btn-outline btn-sm">Clear History</button>
+        </div>
+        <div id="history-container" class="history-container"></div>
+      </section>
+    </section>
+
+    <section id="test-view" class="test-view" hidden>
+      <div class="test-layout">
+        <div class="test-main">
+          <div id="missing-banner" class="notice-banner" hidden></div>
+          <div id="review-banner" class="review-banner" hidden></div>
+
+          <div class="part-header-bar">
+            <div>
+              <h1 id="part-title">Part 1: Photographs</h1>
+              <p id="part-subtitle" class="muted-text"></p>
+            </div>
+            <div class="part-nav-actions">
+              <button type="button" id="prev-part-btn" class="btn btn-outline">Previous Part</button>
+              <button type="button" id="next-part-btn" class="btn btn-primary">Next Part</button>
+            </div>
+          </div>
+
+          <div id="questions-container" class="questions-container"></div>
+
+          <div class="part-footer-bar">
+            <button type="button" id="prev-part-footer-btn" class="btn btn-outline">Previous Part</button>
+            <button type="button" id="next-part-footer-btn" class="btn btn-primary">Next Part</button>
+          </div>
+        </div>
+
+        <aside class="desktop-sidebar" aria-label="Question Navigator">
+          <div class="sidebar-card">
+            <div class="sidebar-head">
+              <h2>Navigator</h2>
+              <span id="sidebar-progress" class="badge">0/200</span>
+            </div>
+            <div class="sidebar-legend">
+              <span><i class="dot dot-answered"></i> Answered</span>
+              <span><i class="dot dot-flagged"></i> Flagged</span>
+              <span><i class="dot dot-correct"></i> Correct</span>
+              <span><i class="dot dot-wrong"></i> Wrong</span>
+            </div>
+            <div id="desktop-palette" class="palette-scroll"></div>
+            <div class="sidebar-footer">
+              <button type="button" id="sidebar-submit-btn" class="btn btn-primary btn-block">Submit &amp; Score</button>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer id="audio-bar" class="audio-bar" hidden>
+    <div class="audio-bar-inner">
+      <div class="audio-meta">
+        <span id="audio-label" class="audio-title">TEST 1 Audio</span>
+        <span id="audio-time" class="audio-clock">00:00 / 00:00</span>
+      </div>
+
+      <div class="audio-controls">
+        <button type="button" id="audio-back-btn" class="btn btn-outline btn-sm">-5s</button>
+        <button type="button" id="audio-play-btn" class="btn btn-primary btn-sm">Play</button>
+        <button type="button" id="audio-fwd-btn" class="btn btn-outline btn-sm">+5s</button>
+        <input id="audio-seek" class="audio-seek" type="range" min="0" max="100" value="0" step="0.5" aria-label="Audio Seek">
+        <label class="sr-only" for="audio-rate">Playback Speed</label>
+        <select id="audio-rate" class="select-control select-sm" aria-label="Playback Speed">
+          <option value="0.8">0.8x</option>
+          <option value="1" selected>1.0x</option>
+          <option value="1.2">1.2x</option>
+          <option value="1.5">1.5x</option>
+        </select>
+        <button type="button" id="mobile-palette-btn" class="btn btn-outline btn-sm mobile-only">Questions</button>
+      </div>
+
+      <audio id="test-audio" preload="metadata"></audio>
+    </div>
+  </footer>
+
+  <dialog id="palette-dialog" closedby="any" aria-labelledby="palette-title">
+    <div class="dialog-panel">
+      <div class="dialog-header">
+        <h2 id="palette-title">Question Navigator</h2>
+        <button type="button" id="palette-close-btn" class="btn btn-outline btn-sm">Close</button>
+      </div>
+      <div id="modal-palette" class="dialog-body palette-scroll"></div>
+    </div>
+  </dialog>
+
+  <dialog id="score-dialog" closedby="any" aria-labelledby="score-title">
+    <div class="dialog-panel dialog-panel-wide">
+      <div class="dialog-header">
+        <h2 id="score-title">Official TOEIC Score Report</h2>
+        <button type="button" id="score-close-btn" class="btn btn-outline btn-sm">Close</button>
+      </div>
+      <div id="score-body" class="dialog-body"></div>
+      <div class="dialog-footer">
+        <button type="button" id="review-mode-btn" class="btn btn-primary">Review Answers</button>
+        <button type="button" id="score-overview-btn" class="btn btn-outline">Back to Overview</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="reset-dialog" aria-labelledby="reset-title">
+    <div class="dialog-panel">
+      <div class="dialog-header">
+        <h2 id="reset-title">Reset Current Test Attempt?</h2>
+      </div>
+      <div class="dialog-body">
+        <p>This clears all selected answers, flags, and section timers for the active test. Saved transcript study notes are kept.</p>
+      </div>
+      <form method="dialog" class="dialog-footer">
+        <button type="submit" value="cancel" class="btn btn-outline" autofocus>Cancel</button>
+        <button type="submit" value="confirm" class="btn btn-danger">Reset Attempt</button>
+      </form>
+    </div>
+  </dialog>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

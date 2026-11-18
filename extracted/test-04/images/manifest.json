@@ -1,0 +1,107 @@
+[
+  {
+    "test": 4,
+    "part": 1,
+    "questions": "q03",
+    "page": 41,
+    "bbox": [
+      297,
+      107,
+      983,
+      609
+    ],
+    "width": 686,
+    "height": 502,
+    "file": "part1_q03.jpg"
+  },
+  {
+    "test": 4,
+    "part": 1,
+    "questions": "q04",
+    "page": 41,
+    "bbox": [
+      304,
+      825,
+      990,
+      1328
+    ],
+    "width": 686,
+    "height": 503,
+    "file": "part1_q04.jpg"
+  },
+  {
+    "test": 4,
+    "part": 1,
+    "questions": "q05",
+    "page": 42,
+    "bbox": [
+      294,
+      106,
+      980,
+      601
+    ],
+    "width": 686,
+    "height": 495,
+    "file": "part1_q05.jpg"
+  },
+  {
+    "test": 4,
+    "part": 1,
+    "questions": "q06",
+    "page": 42,
+    "bbox": [
+      290,
+      824,
+      975,
+      1320
+    ],
+    "width": 685,
+    "height": 496,
+    "file": "part1_q06.jpg"
+  },
+  {
+    "test": 4,
+    "part": 3,
+    "questions": "q62-64",
+    "page": 46,
+    "bbox": [
+      590,
+      99,
+      1081,
+      364
+    ],
+    "width": 491,
+    "height": 265,
+    "file": "part3_q62-64.jpg"
+  },
+  {
+    "test": 4,
+    "part": 4,
+    "questions": "q95-97",
+    "page": 48,
+    "bbox": [
+      116,
+      93,
+      505,
+      270
+    ],
+    "width": 389,
+    "height": 177,
+    "file": "part4_q95-97.jpg"
+  },
+  {
+    "test": 4,
+    "part": 4,
+    "questions": "q98-100",
+    "page": 48,
+    "bbox": [
+      665,
+      93,
+      996,
+      445
+    ],
+    "width": 331,
+    "height": 352,
+    "file": "part4_q98-100.jpg"
+  }
+]

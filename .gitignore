@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Scratch and heavy raw source PDFs/intermediate caches (excluded from static runtime)
+draft.txt
+Hacker 3/*.pdf
+Hacker 3/Hacker 3 Key/
+extracted/test-*/source_listening.pdf
+extracted/test-*/source_reading.pdf
+extracted/test-*/ocr_*.txt
+extracted/test-*/pages/

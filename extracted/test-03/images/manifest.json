@@ -1,0 +1,167 @@
+[
+  {
+    "test": 3,
+    "part": 1,
+    "questions": "q01",
+    "page": 29,
+    "bbox": [
+      413,
+      103,
+      843,
+      727
+    ],
+    "width": 430,
+    "height": 624,
+    "file": "part1_q01.jpg"
+  },
+  {
+    "test": 3,
+    "part": 1,
+    "questions": "q02",
+    "page": 29,
+    "bbox": [
+      281,
+      854,
+      966,
+      1317
+    ],
+    "width": 685,
+    "height": 463,
+    "file": "part1_q02.jpg"
+  },
+  {
+    "test": 3,
+    "part": 1,
+    "questions": "q03",
+    "page": 30,
+    "bbox": [
+      296,
+      107,
+      981,
+      602
+    ],
+    "width": 685,
+    "height": 495,
+    "file": "part1_q03.jpg"
+  },
+  {
+    "test": 3,
+    "part": 1,
+    "questions": "q04",
+    "page": 30,
+    "bbox": [
+      293,
+      879,
+      976,
+      1318
+    ],
+    "width": 683,
+    "height": 439,
+    "file": "part1_q04.jpg"
+  },
+  {
+    "test": 3,
+    "part": 1,
+    "questions": "q05",
+    "page": 31,
+    "bbox": [
+      286,
+      100,
+      972,
+      594
+    ],
+    "width": 686,
+    "height": 494,
+    "file": "part1_q05.jpg"
+  },
+  {
+    "test": 3,
+    "part": 1,
+    "questions": "q06",
+    "page": 31,
+    "bbox": [
+      412,
+      818,
+      840,
+      1442
+    ],
+    "width": 428,
+    "height": 624,
+    "file": "part1_q06.jpg"
+  },
+  {
+    "test": 3,
+    "part": 3,
+    "questions": "q65-67",
+    "page": 36,
+    "bbox": [
+      148,
+      105,
+      537,
+      437
+    ],
+    "width": 389,
+    "height": 332,
+    "file": "part3_q65-67.jpg"
+  },
+  {
+    "test": 3,
+    "part": 3,
+    "questions": "q68-70",
+    "page": 36,
+    "bbox": [
+      617,
+      103,
+      1109,
+      352
+    ],
+    "width": 492,
+    "height": 249,
+    "file": "part3_q68-70.jpg"
+  },
+  {
+    "test": 3,
+    "part": 4,
+    "questions": "q92-94",
+    "page": 38,
+    "bbox": [
+      619,
+      620,
+      1110,
+      844
+    ],
+    "width": 491,
+    "height": 224,
+    "file": "part4_q92-94.jpg"
+  },
+  {
+    "test": 3,
+    "part": 4,
+    "questions": "q95-97",
+    "page": 39,
+    "bbox": [
+      76,
+      98,
+      568,
+      289
+    ],
+    "width": 492,
+    "height": 191,
+    "file": "part4_q95-97.jpg"
+  },
+  {
+    "test": 3,
+    "part": 4,
+    "questions": "q98-100",
+    "page": 39,
+    "bbox": [
+      598,
+      101,
+      1088,
+      321
+    ],
+    "width": 490,
+    "height": 220,
+    "file": "part4_q98-100.jpg"
+  }
+]

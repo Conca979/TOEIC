@@ -1,0 +1,108 @@
+{
+  "tests": [
+    {
+      "test_id": 1,
+      "title": "Hackers TOEIC 3 - Test 01",
+      "json_path": "test-01/test.json",
+      "audio_file": "Hacker 3/AUDIO/TEST 1.mp3",
+      "question_count": 200,
+      "image_count": 11,
+      "complete": true,
+      "missing_notes": []
+    },
+    {
+      "test_id": 2,
+      "title": "Hackers TOEIC 3 - Test 02",
+      "json_path": "test-02/test.json",
+      "audio_file": "Hacker 3/AUDIO/TEST 2.mp3",
+      "question_count": 200,
+      "image_count": 11,
+      "complete": true,
+      "missing_notes": []
+    },
+    {
+      "test_id": 3,
+      "title": "Hackers TOEIC 3 - Test 03",
+      "json_path": "test-03/test.json",
+      "audio_file": "Hacker 3/AUDIO/TEST 3.mp3",
+      "question_count": 200,
+      "image_count": 11,
+      "complete": true,
+      "missing_notes": []
+    },
+    {
+      "test_id": 4,
+      "title": "Hackers TOEIC 3 - Test 04",
+      "json_path": "test-04/test.json",
+      "audio_file": "Hacker 3/AUDIO/TEST 4.mp3",
+      "question_count": 200,
+      "image_count": 7,
+      "complete": false,
+      "missing_notes": [
+        "Listening Part 1 Q1-Q2: source page missing from source_listening.pdf (book p. 65 absent; official answers C, D preserved from AK-Listening-Test04.jpg; image fields marked '[missing in source PDF]').",
+        "Listening Part 3 Q65-Q70 (groups q65-67, q68-70): source page missing from source_listening.pdf (book p. 72 absent; official answers preserved from AK-Listening-Test04.jpg; question text, options, and potential graphic image fields marked '[missing in source PDF]').",
+        "Listening Part 4 Q71-Q82 (groups q71-73, q74-76, q77-79, q80-82): source pages missing from source_listening.pdf (book pp. 72-73 absent; official answers preserved from AK-Listening-Test04.jpg; question text and options marked '[missing in source PDF]')."
+      ]
+    },
+    {
+      "test_id": 5,
+      "title": "Hackers TOEIC 3 - Test 05",
+      "json_path": "test-05/test.json",
+      "audio_file": "Hacker 3/AUDIO/TEST 5.mp3",
+      "question_count": 200,
+      "image_count": 11,
+      "complete": true,
+      "missing_notes": []
+    },
+    {
+      "test_id": 6,
+      "title": "Hackers TOEIC 3 - Test 06",
+      "json_path": "test-06/test.json",
+      "audio_file": "Hacker 3/AUDIO/TEST 6.mp3",
+      "question_count": 200,
+      "image_count": 11,
+      "complete": true,
+      "missing_notes": []
+    },
+    {
+      "test_id": 7,
+      "title": "Hackers TOEIC 3 - Test 07",
+      "json_path": "test-07/test.json",
+      "audio_file": "Hacker 3/AUDIO/TEST 7.mp3",
+      "question_count": 200,
+      "image_count": 11,
+      "complete": true,
+      "missing_notes": []
+    },
+    {
+      "test_id": 8,
+      "title": "Hackers TOEIC 3 - Test 08",
+      "json_path": "test-08/test.json",
+      "audio_file": "Hacker 3/AUDIO/TEST 8.mp3",
+      "question_count": 200,
+      "image_count": 11,
+      "complete": true,
+      "missing_notes": []
+    },
+    {
+      "test_id": 9,
+      "title": "Hackers TOEIC 3 - Test 09",
+      "json_path": "test-09/test.json",
+      "audio_file": "Hacker 3/AUDIO/TEST 9.mp3",
+      "question_count": 200,
+      "image_count": 11,
+      "complete": true,
+      "missing_notes": []
+    },
+    {
+      "test_id": 10,
+      "title": "Hackers TOEIC 3 - Test 10",
+      "json_path": "test-10/test.json",
+      "audio_file": "Hacker 3/AUDIO/TEST 10.mp3",
+      "question_count": 200,
+      "image_count": 11,
+      "complete": true,
+      "missing_notes": []
+    }
+  ]
+}
