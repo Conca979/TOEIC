@@ -210,6 +210,7 @@
   function defaultAttempt() {
     return {
       answers: {},
+      eliminated: {},
       flags: [],
       listeningSeconds: LISTENING_TOTAL_SEC,
       readingSeconds: READING_TOTAL_SEC,
@@ -624,23 +625,29 @@
   function renderOptionButtons(qObj, hideText = false) {
     const num = qObj.number;
     const chosen = state.attempt.answers[String(num)];
+    const elimList = (state.attempt.eliminated && state.attempt.eliminated[String(num)]) || [];
     const showGrades = state.reviewMode || state.attempt.submitted;
     const disabled = state.attempt.submitted;
 
     return Object.entries(qObj.options)
       .map(([key, text]) => {
+        const isElim = elimList.includes(key);
         const classes = ['option-btn'];
         if (chosen === key) classes.push('is-selected');
+        if (isElim) classes.push('is-eliminated');
         if (showGrades) {
           if (key === qObj.answer) classes.push('is-correct');
           else if (chosen === key && chosen !== qObj.answer) classes.push('is-wrong');
         }
         const label = hideText ? `(${key})` : isMissing(text) ? `(${key}) [missing in source PDF]` : escapeHtml(text);
         return `
-          <button type="button" class="${classes.join(' ')}" data-q="${num}" data-opt="${key}" ${disabled ? 'disabled' : ''}>
-            <span class="option-key">${key}</span>
-            <span>${label}</span>
-          </button>
+          <div class="option-row">
+            <button type="button" class="${classes.join(' ')}" data-q="${num}" data-opt="${key}" title="Left-click to select, right-click to cross out" ${disabled ? 'disabled' : ''}>
+              <span class="option-key">${key}</span>
+              <span class="option-label">${label}</span>
+            </button>
+            <button type="button" class="strike-btn ${isElim ? 'is-active' : ''}" data-strike-q="${num}" data-strike-opt="${key}" aria-label="Cross out option ${key}" aria-pressed="${isElim}" title="${isElim ? 'Restore option' : 'Cross out option'}" ${disabled ? 'disabled' : ''}>&times;</button>
+          </div>
         `;
       })
       .join('');
@@ -940,6 +947,7 @@
       state.activeTestId = testId;
       state.activePart = part;
       state.attempt = readJsonStorage(STORAGE.attempt(testId), defaultAttempt());
+      state.attempt.eliminated = state.attempt.eliminated || {};
       state.scripts = readJsonStorage(STORAGE.scripts(testId), {});
       state.reviewMode = Boolean(state.attempt.submitted);
       state.timerPaused = false;
@@ -1105,7 +1113,34 @@
     els.nextPartBtn.addEventListener('click', goNext);
     els.nextPartFooterBtn.addEventListener('click', goNext);
 
+    function toggleEliminated(qNum, opt) {
+      if (!state.attempt || state.attempt.submitted) return;
+      state.attempt.eliminated = state.attempt.eliminated || {};
+      const list = state.attempt.eliminated[qNum] || [];
+      if (list.includes(opt)) {
+        state.attempt.eliminated[qNum] = list.filter((x) => x !== opt);
+        if (state.attempt.eliminated[qNum].length === 0) {
+          delete state.attempt.eliminated[qNum];
+        }
+      } else {
+        state.attempt.eliminated[qNum] = [...list, opt];
+        if (state.attempt.answers[qNum] === opt) {
+          delete state.attempt.answers[qNum];
+          updateAnsweredBadge();
+          renderPalette();
+        }
+      }
+      saveAttempt();
+      renderActivePart();
+    }
+
     els.questionsContainer.addEventListener('click', (e) => {
+      const strikeBtn = e.target.closest('[data-strike-opt]');
+      if (strikeBtn && !state.attempt.submitted) {
+        toggleEliminated(String(strikeBtn.dataset.strikeQ), strikeBtn.dataset.strikeOpt);
+        return;
+      }
+
       const optBtn = e.target.closest('[data-opt]');
       if (optBtn && !state.attempt.submitted) {
         const qNum = String(optBtn.dataset.q);
@@ -1114,6 +1149,12 @@
           delete state.attempt.answers[qNum];
         } else {
           state.attempt.answers[qNum] = opt;
+          if (state.attempt.eliminated && Array.isArray(state.attempt.eliminated[qNum])) {
+            state.attempt.eliminated[qNum] = state.attempt.eliminated[qNum].filter((x) => x !== opt);
+            if (state.attempt.eliminated[qNum].length === 0) {
+              delete state.attempt.eliminated[qNum];
+            }
+          }
         }
         saveAttempt();
         updateAnsweredBadge();
@@ -1149,6 +1190,13 @@
         state.revealedKeys.add(revealBtn.dataset.revealKey);
         renderActivePart();
       }
+    });
+
+    els.questionsContainer.addEventListener('contextmenu', (e) => {
+      const optBtn = e.target.closest('[data-opt]');
+      if (!optBtn || state.attempt.submitted) return;
+      e.preventDefault();
+      toggleEliminated(String(optBtn.dataset.q), optBtn.dataset.opt);
     });
 
     els.questionsContainer.addEventListener('input', (e) => {

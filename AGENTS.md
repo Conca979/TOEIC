@@ -23,6 +23,7 @@ TOEIC interactive learning platform built from local Hacker 3 PDF and MP3 resour
   - Part 3 and Part 4 detect outermost rectangular bordered graphics (with a column-band fallback) and map them to question groups via `"Look at the graphic"` occurrences in the OCR text layer.
 - `src/toeic/prepare_tests.py`: deterministically slices `source_listening.pdf`, `source_reading.pdf`, `ocr_listening.txt`, `ocr_reading.txt`, `pages/`, and `images/` for all 10 tests (`extracted/test-01/` through `extracted/test-10/`).
 - `src/toeic/validate_test.py`: validates the unified 200-question JSON contract (`--test N` or `--all`) across `listening` (`part1`..`part4`), `reading` (`part5`..`part7`), option completeness, answer validity (`A`-`D` / `A`-`C`), image file existence, and `[missing...]` markers.
+- `src/toeic/trim_audio.py`: losslessly strips the 18.0-second (`689`-frame, `287,974`-byte) Korean intro/jingle immediately following the ID3v2 tag across `Hacker 3/AUDIO/TEST 1.mp3` through `TEST 10.mp3` (idempotent via intro prefix hash check).
 - `extracted/index.json`: catalog of all 10 tests (`json_path`, `audio_file`, `question_count`, `image_count`, `complete`, `missing_notes`).
 - `extracted/test-XX/test.json`: self-contained 200-question dataset per test with unified Listening + Reading structure and relative image paths (`images/...`).
 
@@ -32,5 +33,6 @@ TOEIC interactive learning platform built from local Hacker 3 PDF and MP3 resour
   - Loads `extracted/index.json` and per-test `extracted/test-XX/test.json`, images, and `Hacker 3/AUDIO/TEST X.mp3`.
   - Implements official ETS TOEIC timing (`45:00` Listening + `75:00` Reading) and scaled scoring (`5-495` per section, `10-990` total).
   - Includes a global/per-item Listening Script toggle (`<input type="checkbox" switch>`) with editable personal transcript notes and optional Blind Listening mode.
+  - Supports right-click answer cross-out (process of elimination) per option across all parts.
   - Persists progress in `localStorage` (`toeic_active_test`, `toeic_attempt_test_XX`, `toeic_scripts_test_XX`, `toeic_history`) with JSON export/import.
 - `.github/workflows/deploy.yml`: GitHub Actions workflow assembling `_site/` (`index.html`, `styles.css`, `app.js`, `extracted/index.json`, `extracted/test-*/test.json`, `extracted/test-*/images/`, `Hacker 3/AUDIO/*.mp3`) and deploying to GitHub Pages.

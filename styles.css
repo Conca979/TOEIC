@@ -852,8 +852,17 @@ html.no-native-switch input[type="checkbox"][switch]:checked::before {
   gap: 0.42rem;
 }
 
+.option-row {
+  display: flex;
+  align-items: stretch;
+  gap: 0.35rem;
+  min-inline-size: 0;
+}
+
 .option-btn {
   display: flex;
+  flex: 1 1 auto;
+  min-inline-size: 0;
   align-items: flex-start;
   gap: 0.6rem;
   text-align: start;
@@ -866,6 +875,34 @@ html.no-native-switch input[type="checkbox"][switch]:checked::before {
   border-radius: var(--radius-sm);
   font-size: 0.9rem;
   transition: border-color 0.12s ease, background-color 0.12s ease;
+}
+
+.option-label {
+  min-inline-size: 0;
+  overflow-wrap: anywhere;
+}
+
+.strike-btn {
+  flex: 0 0 40px;
+  min-block-size: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+
+.strike-btn:hover:not(:disabled),
+.strike-btn.is-active {
+  background: var(--bg-subtle);
+  border-color: var(--border-strong);
+  color: var(--text-main);
 }
 
 .option-btn:hover:not(:disabled) {
@@ -898,6 +935,19 @@ html.no-native-switch input[type="checkbox"][switch]:checked::before {
   background: var(--danger-soft);
   border-color: var(--danger-color);
   color: #7f1d1d;
+}
+
+.option-btn.is-eliminated {
+  text-decoration: line-through;
+  opacity: 0.55;
+  color: var(--text-muted);
+  background: var(--bg-page);
+  border-style: dashed;
+}
+
+.option-btn.is-eliminated .option-key {
+  color: var(--text-muted);
+  text-decoration: line-through;
 }
 
 .blind-placeholder {
