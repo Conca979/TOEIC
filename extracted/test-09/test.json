@@ -14,7 +14,9 @@
           "C": "(C)",
           "D": "(D)"
         },
-        "answer": "B"
+        "answer": "B",
+        "script": "(A) He's carrying some jackets.\n(B) He's riding an escalator.\n(C) He's weighing a suitcase.\n(D) He's waiting for an elevator.",
+        "explanation": "(B) accurately describes the man standing on an escalator with a rolling suitcase beside him. He is pulling a suitcase rather than carrying jackets (A) or weighing it (C), and he is riding an escalator rather than waiting for an elevator (D)."
       },
       {
         "number": 2,
@@ -25,7 +27,9 @@
           "C": "(C)",
           "D": "(D)"
         },
-        "answer": "A"
+        "answer": "A",
+        "script": "(A) Some men are operating devices.\n(B) Some men are moving a couch.\n(C) Some men are clearing a table.\n(D) Some men are setting up a computer.",
+        "explanation": "(A) accurately matches the scene, in which one man uses a tablet and the other works on a laptop. Neither man is moving the couch (B), clearing the table (C), or setting up a desktop computer (D)."
       },
       {
         "number": 3,
@@ -36,7 +40,9 @@
           "C": "(C)",
           "D": "(D)"
         },
-        "answer": "B"
+        "answer": "B",
+        "script": "(A) She is plugging a cable into a printer.\n(B) She is copying some pages.\n(C) She is placing a book on a shelf.\n(D) She is sliding paper into a tray.",
+        "explanation": "(B) correctly describes the woman holding open a photocopier lid and placing pages on the glass to make copies. She is not plugging in a cable (A), placing a book on a shelf (C), or sliding paper into a tray (D)."
       },
       {
         "number": 4,
@@ -47,7 +53,9 @@
           "C": "(C)",
           "D": "(D)"
         },
-        "answer": "D"
+        "answer": "D",
+        "script": "(A) They are stepping down from a curb.\n(B) They are tying their shoelaces.\n(C) They are lifting bags with their hands.\n(D) They are walking next to each other.",
+        "explanation": "(D) accurately depicts the man and woman walking side by side down a staircase. They are on steps rather than a curb (A), not tying shoelaces (B), and wearing their bags over their shoulders rather than lifting them by hand (C)."
       },
       {
         "number": 5,
@@ -58,7 +66,9 @@
           "C": "(C)",
           "D": "(D)"
         },
-        "answer": "C"
+        "answer": "C",
+        "script": "(A) An advertisement is being taken down.\n(B) Shoppers are paying for sweaters.\n(C) Some clothing has been put on display.\n(D) A scarf has been draped over a rack.",
+        "explanation": "(C) accurately describes the storefront window displaying mannequins dressed in sweaters, pants, and other clothing. No advertisement is being removed (A), no shoppers are paying (B), and the scarf is worn on a mannequin rather than draped over a rack (D)."
       },
       {
         "number": 6,
@@ -69,7 +79,9 @@
           "C": "(C)",
           "D": "(D)"
         },
-        "answer": "C"
+        "answer": "C",
+        "script": "(A) Containers are being piled up on a deck.\n(B) Passengers are disembarking from a ship.\n(C) A vessel is sailing through the water.\n(D) Storage crates are being unloaded from a boat.\nNow, let us begin with question number 7.",
+        "explanation": "(C) accurately describes the cargo ship sailing across the water with a wake trailing behind it. Although containers sit stacked on the deck, no people are actively piling (A) or unloading (D) them, and no passengers are disembarking (B)."
       }
     ],
     "part2": [
@@ -80,7 +92,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "A"
+        "answer": "A",
+        "script": "When did you start seeking another job?\n(A) A few days ago.\n(B) It's a good start.\n(C) At the employment agency.",
+        "explanation": "(A) directly answers the past-time 'When' question with a past time expression ('A few days ago'). (B) merely repeats 'start,' and (C) gives a location instead of a time."
       },
       {
         "number": 8,
@@ -89,7 +103,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "C"
+        "answer": "C",
+        "script": "How long did medical school take for you to complete?\n(A) I'm glad they're finally done.\n(B) Dr. Robinson is my physician.\n(C) Almost six years.",
+        "explanation": "(C) directly answers the duration question 'How long' with a length of time ('Almost six years'). (A) misses the duration question, and (B) is a word-association trap ('medical' -> 'physician')."
       },
       {
         "number": 9,
@@ -98,7 +114,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "C"
+        "answer": "C",
+        "script": "What date should we get together?\n(A) Let me get a table.\n(B) We left on July 21st.\n(C) I'm not really sure.",
+        "explanation": "(C) is a natural indirect response expressing uncertainty when a specific meeting date has not yet been decided. (A) repeats 'get,' while (B) gives a past date ('left on July 21st') that mismatches a future suggestion."
       },
       {
         "number": 10,
@@ -107,7 +125,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "C"
+        "answer": "C",
+        "script": "Who left these tools out all night?\n(A) Yes, put them in here.\n(B) The entire evening.\n(C) I did.",
+        "explanation": "(C) directly identifies the person responsible ('I did') in response to the 'Who' question. (A) wrongly starts with 'Yes' for a WH-question, and (B) gives a duration triggered by 'all night.'"
       },
       {
         "number": 11,
@@ -116,7 +136,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "B"
+        "answer": "B",
+        "script": "Was the moving company willing to reschedule on short notice?\n(A) I appreciate your being so flexible.\n(B) It fortunately was.\n(C) By moving the furniture.",
+        "explanation": "(B) directly answers the yes/no question using the matching auxiliary verb ('It fortunately was' = yes, the company was willing). (A) shifts to thanking the listener, and (C) repeats 'moving' in an unrelated phrase."
       },
       {
         "number": 12,
@@ -125,7 +147,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "C"
+        "answer": "C",
+        "script": "Don't you want to apply to become the department head?\n(A) Toward the head of the line.\n(B) A late departure time.\n(C) I don't feel ready for it.",
+        "explanation": "(C) indirectly declines the idea by explaining why the speaker is not applying ('I don't feel ready for it'). (A) and (B) rely on word/sound traps ('head' and 'department'/'departure')."
       },
       {
         "number": 13,
@@ -134,7 +158,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "B"
+        "answer": "B",
+        "script": "How did tennis with Mitch go on Monday?\n(A) Youth tennis courses are popular.\n(B) We both enjoyed it.\n(C) Can he drive on Tuesday instead?",
+        "explanation": "(B) directly answers 'How did ... go' by giving an evaluation ('We both enjoyed it'). (A) makes an unrelated general remark about tennis courses, and (C) changes the topic to driving on Tuesday."
       },
       {
         "number": 14,
@@ -143,7 +169,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "A"
+        "answer": "A",
+        "script": "Why is the CEO leaving early?\n(A) He has to take part in a workshop.\n(B) Probably around 8:30.\n(C) His name is Steve Erickson.",
+        "explanation": "(A) directly answers the 'Why' question by stating the reason for the CEO's early departure. (B) answers 'When' ('around 8:30'), and (C) answers 'Who' ('Steve Erickson')."
       },
       {
         "number": 15,
@@ -152,7 +180,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "A"
+        "answer": "A",
+        "script": "I plan to purchase a house later this fall.\n(A) I want to see your place once you move.\n(B) In the bedroom.\n(C) The blueprints have gone missing.",
+        "explanation": "(A) responds naturally to the speaker's plan to buy a house by expressing interest in visiting after the move. (B) and (C) only associate with house-related nouns ('bedroom,' 'blueprints') without answering logically."
       },
       {
         "number": 16,
@@ -161,7 +191,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "B"
+        "answer": "B",
+        "script": "What event did you and Jonas go to last weekend?\n(A) There's a fashion show tomorrow.\n(B) We saw a concert in New Jersey.\n(C) He decided to.",
+        "explanation": "(B) directly names the past event ('We saw a concert') matching 'last weekend.' (A) mentions a future event ('tomorrow'), and (C) merely repeats 'to' from 'go to.'"
       },
       {
         "number": 17,
@@ -170,7 +202,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "B"
+        "answer": "B",
+        "script": "Aren't we operating a booth at the agricultural convention?\n(A) Our overseas operations.\n(B) There weren't any spaces available.\n(C) Driving would be more convenient.",
+        "explanation": "(B) indirectly answers 'no' to the negative question by explaining why they are not running a booth ('There weren't any spaces available'). (A) plays on 'operating'/'operations,' and (C) introduces an unrelated comment about driving."
       },
       {
         "number": 18,
@@ -179,7 +213,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "C"
+        "answer": "C",
+        "script": "Have you enrolled in a photography class yet?\n(A) Glass items should be recycled.\n(B) He takes nice pictures.\n(C) Yes, it begins tomorrow.",
+        "explanation": "(C) directly answers the yes/no question ('Yes, it begins tomorrow'). (A) relies on a rhyme trap ('class'/'Glass'), and (B) shifts to an unrelated third person ('He takes nice pictures')."
       },
       {
         "number": 19,
@@ -188,7 +224,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "A"
+        "answer": "A",
+        "script": "I'm supposed to film a video of the guest speaker, right?\n(A) You can use this equipment.\n(B) The video was very well produced.\n(C) I suppose we'll require a vehicle.",
+        "explanation": "(A) indirectly confirms the speaker's task by offering the equipment needed to film the guest speaker. (B) wrongly uses past tense ('was very well produced'), and (C) uses a sound-alike trap ('video'/'vehicle')."
       },
       {
         "number": 20,
@@ -197,7 +235,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "B"
+        "answer": "B",
+        "script": "The gym on Halifax Road is now open.\n(A) Just close the door.\n(B) I'll stop by later today.\n(C) No, I canceled my membership.",
+        "explanation": "(B) responds logically to the news of the gym's opening by stating plans to visit later today. (A) contrasts 'open' with 'close,' and (C) gives an inappropriate 'No' answer to a statement."
       },
       {
         "number": 21,
@@ -206,7 +246,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "C"
+        "answer": "C",
+        "script": "Why don't we update the information on our website?\n(A) You can order it online.\n(B) The site on Oak Street.\n(C) Yes, that's long overdue.",
+        "explanation": "(C) accepts the 'Why don't we' suggestion by agreeing that updating the website is long overdue. (A) shifts to placing an online order, and (B) confuses 'website' with a physical 'site on Oak Street.'"
       },
       {
         "number": 22,
@@ -215,7 +257,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "A"
+        "answer": "A",
+        "script": "The fabric for the new curtain will arrive very soon.\n(A) That's good to know.\n(B) The window in the kitchen.\n(C) The shuttle bus hasn't arrived.",
+        "explanation": "(A) naturally acknowledges the speaker's update about the incoming curtain fabric delivery. (B) associates with 'curtain' ('window'), and (C) repeats 'arrive' about an unrelated shuttle bus."
       },
       {
         "number": 23,
@@ -224,7 +268,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "C"
+        "answer": "C",
+        "script": "When must my existing credit card balance be paid?\n(A) I believe I've been overcharged.\n(B) You gave me those cards.\n(C) By the end of the month.",
+        "explanation": "(C) directly answers the 'When' deadline question with a due date ('By the end of the month'). (A) and (B) react to 'credit card' without addressing when payment is required."
       },
       {
         "number": 24,
@@ -233,7 +279,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "C"
+        "answer": "C",
+        "script": "Is Brandon still taking his break, or did he return to work?\n(A) We took Flight 362.\n(B) I still need supplies.\n(C) He's at his desk right now.",
+        "explanation": "(C) answers the 'or' question indirectly by indicating Brandon is already back at work at his desk. (A) plays on 'taking'/'took,' and (B) merely repeats 'still.'"
       },
       {
         "number": 25,
@@ -242,7 +290,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "B"
+        "answer": "B",
+        "script": "We should hold a training session for new employees.\n(A) All former personnel.\n(B) I've already organized one.\n(C) Basic software skills.",
+        "explanation": "(B) responds directly to the suggestion by noting that a training session ('one') has already been arranged. (A) and (C) are isolated noun phrases that do not address the proposal."
       },
       {
         "number": 26,
@@ -251,7 +301,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "A"
+        "answer": "A",
+        "script": "Is the marketing presentation going to be completed by Friday?\n(A) We're actually ahead of schedule.\n(B) I didn't attend the seminar.\n(C) Wilbur's Supermarket has specials every day.",
+        "explanation": "(A) indirectly answers 'yes' to the Friday deadline question by stating the team is even ahead of schedule. (B) and (C) shift to unrelated topics triggered by 'presentation' and 'marketing.'"
       },
       {
         "number": 27,
@@ -260,7 +312,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "B"
+        "answer": "B",
+        "script": "Will you take care of the office plants, or should I ask Karen to do it?\n(A) A pot of flowers.\n(B) I'd be happy to help.\n(C) I'll be more careful next time.",
+        "explanation": "(B) answers the alternative ('or') question by volunteering to take care of the plants. (A) is a noun phrase associated with 'plants,' and (C) uses a word-family trap ('take care'/'careful')."
       },
       {
         "number": 28,
@@ -269,7 +323,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "B"
+        "answer": "B",
+        "script": "Where can I set up a workstation?\n(A) The statue has been erected.\n(B) I thought you were assigned to another division.\n(C) Anytime after lunch.",
+        "explanation": "(B) indirectly responds to the 'Where' question by expressing surprise because the listener was thought to be in another division. (A) misuses 'set up' for a statue, and (C) gives a time instead of a location."
       },
       {
         "number": 29,
@@ -278,7 +334,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "C"
+        "answer": "C",
+        "script": "The sales forecast has changed due to the shortage of raw materials.\n(A) It's a pretty short documentary.\n(B) I just heard the weather forecast.\n(C) By how much?",
+        "explanation": "(C) logically follows up on the news that the sales forecast changed by asking 'By how much?' (A) plays on 'shortage'/'short,' and (B) confuses 'sales forecast' with 'weather forecast.'"
       },
       {
         "number": 30,
@@ -287,7 +345,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "A"
+        "answer": "A",
+        "script": "Are your current sneakers as comfortable as your previous pair?\n(A) I'd say they're fairly similar.\n(B) This color suits you better.\n(C) She bought them yesterday.",
+        "explanation": "(A) directly answers the comfort comparison by saying the two pairs feel 'fairly similar.' (B) comments on color instead of comfort, and (C) brings up an unrelated person buying them."
       },
       {
         "number": 31,
@@ -296,7 +356,9 @@
           "B": "(B)",
           "C": "(C)"
         },
-        "answer": "C"
+        "answer": "C",
+        "script": "Which type of cake should we bring to Lewis's birthday party?\n(A) He was very pleased with the gift.\n(B) Yes, try the ice cream too.\n(C) I had to choose last time.",
+        "explanation": "(C) indirectly passes the decision back to the listener by noting that the speaker chose the cake last time. (A) talks about a past gift, and (B) wrongly gives a 'Yes' reply to a 'Which' question."
       }
     ],
     "part3": [
@@ -313,7 +375,8 @@
               "C": "She has to drop off some supplies.",
               "D": "She will go to a school function."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The woman explains that Melinda must leave early because 'Her son isn't feeling well,' so she has to 'get him from school.'"
           },
           {
             "number": 33,
@@ -324,7 +387,8 @@
               "C": "Show people around a gym",
               "D": "Fill in for a colleague"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "When the woman asks if he can cover Melinda's duties checking in gym members and answering phones, the man agrees, saying, 'Sure... I'm sure I'll manage.'"
           },
           {
             "number": 34,
@@ -335,9 +399,11 @@
               "C": "At a construction company",
               "D": "At a recruitment agency"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The woman specifically tells the man, 'you used to be a receptionist at an advertising company.'"
           }
-        ]
+        ],
+        "script": "Woman: I just heard that Melinda can't stay until 5:00 p.m. Her son isn't feeling well, so she has to leave work early in order to get him from school. Would you be able to cover her duties?\nMan: Sure, but can you be more specific about what I'll need to do?\nWoman: She's currently checking in gym members and answering phone calls at the main desk, so I'd like you to do that. Seeing as you used to be a receptionist at an advertising company, you should be able to handle everything.\nMan: Well, I'm not very familiar with our registration system, but I'm sure I'll manage.\nNumber 32: Why is Melinda unable to stay until 5:00 p.m.?\nNumber 33: What does the man agree to do?\nNumber 34: According to the woman, where did the man previously work?"
       },
       {
         "group_id": "q35-37",
@@ -352,7 +418,8 @@
               "C": "At a record store",
               "D": "At an electronics repair shop"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The speakers discuss people stopping by 'our store' to buy hard-to-find 'albums' and losing business to 'online music retailers,' showing they work at a record store."
           },
           {
             "number": 36,
@@ -363,7 +430,8 @@
               "C": "Organizing jazz concerts",
               "D": "Giving away prizes"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "To keep customers coming in, the man recommends, 'we should ask some regional bands and singers to appear here at our business.'"
           },
           {
             "number": 37,
@@ -374,9 +442,11 @@
               "C": "Limited edition posters",
               "D": "New albums"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "The woman says she asked local musicians to 'sign autographs here' because 'That's what many customers indicated they want in our satisfaction survey.'"
           }
-        ]
+        ],
+        "script": "Woman: It seems as if more people have been stopping by our store in recent weeks. That's probably because we've started selling albums that are hard to find on the Internet.\nMan: Yes, I think you're right, but we're still losing a lot of customers to online music retailers. To ensure that people keep coming, we should ask some regional bands and singers to appear here at our business.\nWoman: Funny you should suggest that. I've already reached out to several jazz and blues musicians in the area to see if they could come and sign autographs here. That's what many customers indicated they want in our satisfaction survey.\nNumber 35: Where do the speakers most likely work?\nNumber 36: What does the man recommend?\nNumber 37: According to the woman, what do some customers want?"
       },
       {
         "group_id": "q38-40",
@@ -391,7 +461,8 @@
               "C": "At a garage",
               "D": "At a car dealership"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The woman asks to leave her car in 'this indoor parking lot,' and the attendant explains the hourly fee and exit payment machine, indicating a parking garage."
           },
           {
             "number": 39,
@@ -402,7 +473,8 @@
               "C": "He is employed by a nearby business.",
               "D": "He is running some errands."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The woman mentions, 'My husband works at a dental clinic down the street, and he gave me his parking pass.'"
           },
           {
             "number": 40,
@@ -413,9 +485,11 @@
               "C": "Ask for a ticket",
               "D": "Confirm an appointment"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "The attendant instructs her that upon leaving, 'you can insert it [the ticket] into the machine located near the exit and pay using cash or credit card.'"
           }
-        ]
+        ],
+        "script": "Woman: Excuse me, I'd like to leave my car in this indoor parking lot for a couple of hours while I run some errands. My husband works at a dental clinic down the street, and he gave me his parking pass. Can I use it here?\nMan: Unfortunately, it looks like your husband's pass expired two days ago. You'll have to pay to use our space.\nWoman: Oh, okay. How does the payment process work?\nMan: The fee for parking is $3.50 an hour. Here, I'll print a new ticket for you. When you leave, you can insert it into the machine located near the exit and pay using cash or credit card.\nNumber 38: Where most likely does the conversation take place?\nNumber 39: What does the woman say about her husband?\nNumber 40: What should the woman do when she leaves?"
       },
       {
         "group_id": "q41-43",
@@ -430,7 +504,8 @@
               "C": "On Thursday",
               "D": "On Friday"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The man says he has to fly to Seattle this afternoon and 'won't be back until Wednesday evening.'"
           },
           {
             "number": 42,
@@ -441,7 +516,8 @@
               "C": "A marketing presentation",
               "D": "A shareholders' meeting"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The woman states, 'The CEO wants our team to develop some new marketing strategies and present them tomorrow morning.'"
           },
           {
             "number": 43,
@@ -452,9 +528,11 @@
               "C": "To confirm a departure time",
               "D": "To agree to a request"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "After the woman asks for his help preparing for tomorrow morning's presentation, the man says 'I'll take a later flight then' to agree to assist the team."
           }
-        ]
+        ],
+        "script": "Woman: Tyler, have you read the quarterly sales report yet?\nMan: No, I'm planning to look through it on Thursday. I have to fly to Seattle this afternoon for, um, a trade exhibition, and I won't be back until Wednesday evening. Why, is there a problem?\nWoman: Actually, there is. Sales of the company's latest dishwasher model are much lower than expected. The CEO wants our team to develop some new marketing strategies and present them tomorrow morning. We don't have much time to prepare, so I could really use your assistance.\nMan: I'll take a later flight then. This sounds important, and I don't want to let the team down.\nNumber 41: When is the man planning to return from Seattle?\nNumber 42: What will probably take place tomorrow morning?\nNumber 43: Why does the man say, \"I'll take a later flight then\"?"
       },
       {
         "group_id": "q44-46",
@@ -469,7 +547,8 @@
               "C": "Eating at an on-site facility",
               "D": "Extending a break period"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The speakers mainly discuss whether to have lunch at 'the cafeteria in our office building today,' including its recent catering change."
           },
           {
             "number": 45,
@@ -480,7 +559,8 @@
               "C": "To reduce company expenses",
               "D": "To accommodate staff schedules"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "The woman explains that the cafeteria's food service company was replaced last month 'in response to feedback from staff.'"
           },
           {
             "number": 46,
@@ -491,9 +571,11 @@
               "C": "When a menu is changed",
               "D": "When a task is completed"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "After agreeing to join her for lunch, the man says, 'Just let me finish writing this e-mail message first.'"
           }
-        ]
+        ],
+        "script": "Woman: I'm thinking of getting lunch at the cafeteria in our office building today. Do you want to join me?\nMan: No, thanks. I ate there when I started working here, and the food wasn't very good. I would prefer to dine at a restaurant.\nWoman: Did you know that the food service company at our facility was changed last month in response to feedback from staff? Beatrice Dining now provides meals. I find their dishes to be delicious.\nMan: I probably missed that piece of news while I was on vacation three weeks ago. In that case, I'd be happy to come along. Just let me finish writing this e-mail message first.\nNumber 44: What is the conversation mainly about?\nNumber 45: According to the woman, why has there been a change?\nNumber 46: When will the man most likely join the woman?"
       },
       {
         "group_id": "q47-49",
@@ -508,7 +590,8 @@
               "C": "At a research institute",
               "D": "At an appliance manufacturer"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "The woman asks Walter to update the staff manual for 'our investment bank's stock market research software,' showing they work at a financial firm."
           },
           {
             "number": 48,
@@ -519,7 +602,8 @@
               "C": "An order's delivery date",
               "D": "An assignment's deadline"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "The man asks, 'when does the document need to be completed?' and the woman responds that he has three days."
           },
           {
             "number": 49,
@@ -530,9 +614,11 @@
               "C": "He wants to view an electronic file.",
               "D": "He would like to reference a memo."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The man asks to view 'the manual in an electronic format instead of this printout,' explaining that an electronic file will be easier to reference."
           }
-        ]
+        ],
+        "script": "Woman: Walter, I need you to update the staff manual for our investment bank's stock market research software. Here's a copy of the current handbook.\nMan: Thanks, but, uh, when does the document need to be completed?\nWoman: You'll have three days to work on it. Also, you should make revisions based on the version of the software that our IT workers are developing now. I asked the team to provide you with a list of changes to the program.\nMan: Got it. But can I look at the manual in an electronic format instead of this printout? It will be easier for me to refer to that.\nNumber 47: Where most likely do the speakers work?\nNumber 48: What does the man ask the woman about?\nNumber 49: What does the man mean when he says, \"It will be easier for me to refer to that\"?"
       },
       {
         "group_id": "q50-52",
@@ -547,7 +633,8 @@
               "C": "To request an extension",
               "D": "To make a complaint"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "Stanley Coburn calls to complain about finding an overdue book on his account without a voicemail reminder, saying, 'I'm a little upset about the situation.'"
           },
           {
             "number": 51,
@@ -558,7 +645,8 @@
               "C": "Increased fines for overdue materials",
               "D": "Ordered new books"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The librarian explains that the library changed how it alerts patrons: 'We switched to sending notices by e-mail last month.'"
           },
           {
             "number": 52,
@@ -569,9 +657,11 @@
               "C": "Send an e-mail",
               "D": "Waive a charge"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "To resolve the issue, the woman offers to waive the charge: 'If you return the book today, you won't have to pay a late fee.'"
           }
-        ]
+        ],
+        "script": "Man: My name is Stanley Coburn. When I logged into my library account today, I saw that I have an overdue book, but I never received a voicemail reminder about this. I'm a little upset about the situation.\nWoman: We switched to sending notices by e-mail last month, Mr. Coburn. You should have received a message about the development.\nMan: Really? I check my e-mails regularly, and I never received one. Maybe the library hasn't been using my correct e-mail address.\nWoman: I apologize for the inconvenience. Um, here's what I can do. If you return the book today, you won't have to pay a late fee.\nNumber 50: Why is the man calling?\nNumber 51: According to the woman, what did the library do last month?\nNumber 52: What does the woman say she can do?"
       },
       {
         "group_id": "q53-55",
@@ -586,7 +676,8 @@
               "C": "A staff meeting",
               "D": "A training session"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "Man 1 remarks that he was impressed by Cheryl Johnson's answers 'during the interview on Monday.'"
           },
           {
             "number": 54,
@@ -597,7 +688,8 @@
               "C": "She has requested a transfer.",
               "D": "She will lead a seminar."
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "Dave raises the concern that 'She doesn't have much experience working in the financial field.'"
           },
           {
             "number": 55,
@@ -608,9 +700,11 @@
               "C": "Discuss a matter with a superior",
               "D": "Place résumés in a filing cabinet"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "At the end of the conversation, the woman says, 'I should talk to the department head before making a final decision. I'll do that now.'"
           }
-        ]
+        ],
+        "script": "Woman: Before we wrap up this meeting, let's talk about the position we need to fill in the bookkeeping department. After going through the applications, I think Cheryl Johnson looks promising.\nMan 1: I agree. I was really impressed by her responses during the interview on Monday. What do you think, Dave?\nMan 2 (Dave): I don't know. She doesn't have much experience working in the financial field.\nWoman: It shouldn't be an issue, though. It's an entry-level position.\nMan 1: Right, she'll receive on-the-job training.\nMan 2 (Dave): That's a good point. I don't have any objections to hiring her, then.\nWoman: Okay, but I should talk to the department head before making a final decision. I'll do that now.\nNumber 53: What was held on Monday?\nNumber 54: What is mentioned about Cheryl Johnson?\nNumber 55: What will the woman probably do next?"
       },
       {
         "group_id": "q56-58",
@@ -625,7 +719,8 @@
               "C": "A heating system malfunctioned.",
               "D": "A piece of furniture is uncomfortable."
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "The man asks if Jasmine heard 'that loud party in the apartment upstairs last night,' and she replies that it kept her from sleeping."
           },
           {
             "number": 57,
@@ -636,7 +731,8 @@
               "C": "She is frustrated by a closure.",
               "D": "She is disappointed with a unit."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "When the man tells her the management office is closed for a national holiday, she says 'Are you serious?' and worries she will lose more sleep over the weekend, showing frustration at the closure."
           },
           {
             "number": 58,
@@ -647,9 +743,11 @@
               "C": "The location of some stationery",
               "D": "The address of a landlord"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "Planning to leave a note on the neighbor's door, she asks the man to confirm the unit number: 'Unit 74 is the one right above us, isn't it?'"
           }
-        ]
+        ],
+        "script": "Man: Jasmine, did you hear that loud party in the apartment upstairs last night?\nWoman: Yeah, I had trouble sleeping because of it. I'm going to complain to the building management office.\nMan: It's a national holiday, so the office is closed today.\nWoman: Are you serious? That means I'm going to lose more sleep this weekend.\nMan: Well, you could put a note on the door of the apartment upstairs.\nWoman: I suppose I can try that first. Unit 74 is the one right above us, isn't it? I want to be sure I put the note on the proper door.\nNumber 56: What is the problem?\nNumber 57: What does the woman imply when she says, \"Are you serious?\"\nNumber 58: What does the woman ask the man about?"
       },
       {
         "group_id": "q59-61",
@@ -664,7 +762,8 @@
               "C": "A salesperson",
               "D": "A fashion designer"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The man welcomes a customer browsing for a watch, says 'Our store has a number of great choices,' and offers to get an undamaged item from the back room, identifying him as a salesperson."
           },
           {
             "number": 60,
@@ -675,7 +774,8 @@
               "C": "A price tag is incorrect.",
               "D": "A product is damaged."
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "Looking at the $145 watch, the woman points out that 'it looks like the face on it is cracked.'"
           },
           {
             "number": 61,
@@ -686,9 +786,11 @@
               "C": "Repair an item",
               "D": "Provide a discount"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "At the end, the woman requests, 'I'd appreciate it if you could gift wrap it too.'"
           }
-        ]
+        ],
+        "script": "Woman: Hi, I'd like to buy a watch as a gift for my assistant since he was really helpful while I was creating my latest clothing line.\nMan: Certainly. Our store has a number of great choices. For instance, this piece has a leather band and costs $145.\nWoman: I really like that, but it looks like the face on it is cracked. See here? Do you have any others in stock? If so, I'll take it.\nMan: My apologies. Yes, let me grab another from our back room.\nWoman: By the way, I'd appreciate it if you could gift wrap it too. That'll save me the hassle of doing it myself.\nNumber 59: Who most likely is the man?\nNumber 60: What problem does the woman mention?\nNumber 61: What does the woman ask the man to do?"
       },
       {
         "group_id": "q62-64",
@@ -703,7 +805,8 @@
               "C": "At a science museum",
               "D": "At a shopping mall"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The speakers are staff members discussing 'shutting down rides in the park an hour early tonight' and placing 'closing signs near the ride entrances,' indicating an amusement park."
           },
           {
             "number": 63,
@@ -714,7 +817,8 @@
               "C": "For one year",
               "D": "For two years"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "Amy states, 'This month, we're celebrating the first anniversary of our opening,' meaning the park has operated for one year."
           },
           {
             "number": 64,
@@ -725,9 +829,11 @@
               "C": "He did not notice a schedule.",
               "D": "He was given inaccurate information."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "When Amy mentions that the special-event schedule is posted in the staff break room, the man replies, 'I never saw that throughout the week.'"
           }
-        ]
+        ],
+        "script": "Man: Do you know why we're shutting down rides in the park an hour early tonight?\nWoman 1: There will be fireworks in the main plaza this evening.\nMan: I didn't know about that. Did you, Amy?\nWoman 2 (Amy): Sure did. This month, we're celebrating the first anniversary of our opening. As a result, there's a special event each week. The schedule is posted in the staff break room.\nMan: Oh, odd. I never saw that throughout the week.\nWoman 1: I see. Well, it's in there. Okay, we'd better get back to work. Don't forget to place closing signs near the ride entrances in 20 minutes.\nNumber 62: Where is the conversation most likely taking place?\nNumber 63: According to Amy, how long has the facility been in operation?\nNumber 64: Why was the man unaware of an event?"
       },
       {
         "group_id": "q65-67",
@@ -742,7 +848,8 @@
               "C": "Get in touch with a client",
               "D": "Participate in a meeting"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The woman notes Josh is staying late tonight 'to help with the marketing department's relocation to the fifth floor,' and he confirms he is setting up their computers."
           },
           {
             "number": 66,
@@ -753,7 +860,8 @@
               "C": "A directory is inaccessible.",
               "D": "A desk can no longer be used."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The man explains that his setup list 'includes only 25 staff members despite there being 30 in the department,' so he is missing information on five workers."
           },
           {
             "number": 67,
@@ -764,9 +872,11 @@
               "C": "Valarie Dupree",
               "D": "Will Garcia"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "The woman states that 'everyone in marketing has an extension starting with 9.' In the graphic, only Monica Pearce has an extension beginning with 9 (9087), whereas Josh Han (1099), Valarie Dupree (4419), and Will Garcia (7893) do not."
           }
-        ]
+        ],
+        "script": "Woman: Josh, I heard you're staying late tonight to help with the marketing department's relocation to the fifth floor.\nMan: Yeah, I'm setting up the computers. I was given this list detailing which desks I'm supposed to set up. However, it includes only 25 staff members despite there being 30 in the department. I need the rest of the information to finish the job.\nWoman: Why don't you call the five employees who aren't included in the list and ask which workstations they're moving to?\nMan: I don't know their names, and our online directory doesn't include employees' departments.\nWoman: Well, everyone in marketing has an extension starting with 9. Just sort by extension number, and you'll be able to see everyone in that department.\nNumber 65: What will the man do tonight?\nNumber 66: What problem does the man mention?\nNumber 67: Look at the graphic. Who works in the marketing department?"
       },
       {
         "group_id": "q68-70",
@@ -781,7 +891,8 @@
               "C": "$15",
               "D": "$20"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The graphic displays a 'One-Day Pass' issued to a 'World Culinary Organization Member.' In the conversation, the man states that members 'pay $10 for a one-day pass.'"
           },
           {
             "number": 69,
@@ -792,7 +903,8 @@
               "C": "A notice was posted online.",
               "D": "A class was canceled."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "Referring to Sunday afternoon's cooking competition, the woman says, 'An announcement was added to the website yesterday.'"
           },
           {
             "number": 70,
@@ -803,9 +915,11 @@
               "C": "He has to prepare for a contest.",
               "D": "He is going to conduct a workshop."
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "The man explains he cannot attend on Sunday because 'my parents are staying at my house from Sunday to Monday, and we already have arrangements then.'"
           }
-        ]
+        ],
+        "script": "Man: Are you going to the Eastville Food Festival, Priscilla?\nWoman: You bet! I bought my ticket today. I'm surprised they raised the prices this year, though.\nMan: Fortunately, I belong to the World Culinary Organization, so I got a $5 discount. Members pay $10 for a one-day pass and $15 for a two-day pass.\nWoman: Lucky you! Did you hear that they will be holding a cooking competition on Sunday afternoon? An announcement was added to the website yesterday. Apparently, several international chefs will be participating.\nMan: Really? I'd love to watch that, but my parents are staying at my house from Sunday to Monday, and we already have arrangements then, so I'll have to skip it.\nNumber 68: Look at the graphic. How much did the man pay for the ticket?\nNumber 69: What happened yesterday?\nNumber 70: Why is the man unable to attend the festival on Sunday?"
       }
     ],
     "part4": [
@@ -822,7 +936,8 @@
               "C": "An airline pilot",
               "D": "A security guard"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The speaker introduces himself at the start of the in-flight announcement: 'Attention Flight 876 passengers. This is your captain speaking.'"
           },
           {
             "number": 72,
@@ -833,7 +948,8 @@
               "C": "At 5:30 P.M.",
               "D": "At 5:40 P.M."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The captain announces that thanks to favorable air currents, 'we will arrive at 5:20 p.m. local time instead of 5:40 p.m.'"
           },
           {
             "number": 73,
@@ -844,9 +960,11 @@
               "C": "Report to an information desk",
               "D": "Confirm a flight time"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "Because it is an international flight requiring an immigration form upon arrival, the speaker recommends, 'I suggest filling it out now.'"
           }
-        ]
+        ],
+        "script": "Attention Flight 876 passengers. This is your captain speaking. Thanks to some favorable air currents, we will reach Los Angeles approximately 20 minutes ahead of schedule, so we will arrive at 5:20 p.m. local time instead of 5:40 p.m. The weather at our destination is partly cloudy and is expected to stay that way for the rest of the day. Since this is an international flight, many of you will need to submit an immigration form upon arrival, so I suggest filling it out now. The seat belt sign will be turned on in 10 minutes, at which time you will need to return to your seats and remain there until we land.\nNumber 71: Who is the speaker?\nNumber 72: When will Flight 876 reach its destination?\nNumber 73: What does the speaker suggest listeners do?"
       },
       {
         "group_id": "q74-76",
@@ -861,7 +979,8 @@
               "C": "A new supermarket chain",
               "D": "An innovative home appliance"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The announcement promotes Durand Incorporated's 'Limon line of environmentally friendly household cleaners' made from all-natural ingredients."
           },
           {
             "number": 75,
@@ -872,7 +991,8 @@
               "C": "A product will be available in retail stores.",
               "D": "Existing models will be replaced."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The speaker announces, 'Starting this March, Limon brand items... will be available in all Davis Market stores across the United States.'"
           },
           {
             "number": 76,
@@ -883,9 +1003,11 @@
               "C": "Ask for a refund",
               "D": "Make a purchase"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "The speaker informs listeners that 'you can order any of our products at www.durandincorp.com' for 5% off."
           }
-        ]
+        ],
+        "script": "At Durand Incorporated, we believe that cleaning supplies should not include harmful chemicals. That's why we created the Limon line of environmentally friendly household cleaners. Made from all-natural ingredients, these products will never damage countertops, stoves, or any other surfaces. Starting this March, Limon brand items will be even easier to find as they will be available in all Davis Market stores across the United States. In the meantime, you can order any of our products at www.durandincorp.com, where all of our goods are currently 5% off.\nNumber 74: What is being advertised?\nNumber 75: What is supposed to happen in March?\nNumber 76: According to the speaker, what can listeners do online?"
       },
       {
         "group_id": "q77-79",
@@ -900,7 +1022,8 @@
               "C": "A law firm",
               "D": "A real estate agency"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The caller identifies himself as 'Michael Denton calling from Harford Legal Services' about a retirement party 'for another attorney at my firm.'"
           },
           {
             "number": 78,
@@ -911,7 +1034,8 @@
               "C": "To indicate a problem",
               "D": "To show excitement"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "By contrasting food for only 50 people with 'over 75 guests... attending this event,' Denton points out a serious catering shortage ('this mistake')."
           },
           {
             "number": 79,
@@ -922,9 +1046,11 @@
               "C": "Provide an attendee list",
               "D": "Visit an event venue"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "Denton concludes the message by telling the caterer, 'I expect to see you here at the hall within the hour with a plan to deal with this situation.'"
           }
-        ]
+        ],
+        "script": "This is Michael Denton calling from Harford Legal Services. It's regarding the retirement party for another attorney at my firm that your company is catering tonight. I just spoke to one of your employees who is setting up at the banquet hall we rented, and she mentioned that there will be sufficient food for 50 people, but over 75 guests will be attending this event. I'm not sure how this mistake happened. I was very clear when I met with you to organize the party, and the contract I signed states the number of attendees. I expect to see you here at the hall within the hour with a plan to deal with this situation.\nNumber 77: What type of business does the speaker work for?\nNumber 78: Why does the speaker say, \"but over 75 guests will be attending this event\"?\nNumber 79: What does the speaker ask the listener to do?"
       },
       {
         "group_id": "q80-82",
@@ -939,7 +1065,8 @@
               "C": "On August 7",
               "D": "On August 8"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The weather bureau warns that 'Toronto will experience a severe heat wave on August 6th and 7th,' meaning it begins on August 6."
           },
           {
             "number": 81,
@@ -950,7 +1077,8 @@
               "C": "Report health problems",
               "D": "Contact an official"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "Residents are explicitly advised to 'avoid physically demanding activities such as jogging or playing sports.'"
           },
           {
             "number": 82,
@@ -961,9 +1089,11 @@
               "C": "Air quality data",
               "D": "Nutrition tips"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The speaker states, 'Information about the symptoms of heat stroke and methods of treatment is available on our website.'"
           }
-        ]
+        ],
+        "script": "This is an urgent announcement from the National Weather Bureau. Be advised, the city of Toronto will experience a severe heat wave on August 6th and 7th. Daytime temperatures during this period are expected to exceed 36 degrees Celsius. Residents should avoid physically demanding activities such as jogging or playing sports. In addition, pets and young children should not be left unattended in parked vehicles. Information about the symptoms of heat stroke and methods of treatment is available on our website, along with tips for coping with the heat. Rain is forecasted for the area on August 8th, which will lead to a significant drop in temperature.\nNumber 80: When will the heat wave begin?\nNumber 81: What are listeners advised to do?\nNumber 82: What does the speaker say is available on the website?"
       },
       {
         "group_id": "q83-85",
@@ -978,7 +1108,8 @@
               "C": "A financial company",
               "D": "A recruitment agency"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The commercial promotes Fieldstone Services, 'the largest wealth management firm in the country' and a source of investment advice."
           },
           {
             "number": 84,
@@ -989,7 +1120,8 @@
               "C": "Its products are reliable.",
               "D": "Its employees are trustworthy."
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "After citing its #1 ranking in the National Brand Survey, the speaker explains, 'This is because clients know that our employees can be trusted.'"
           },
           {
             "number": 85,
@@ -1000,9 +1132,11 @@
               "C": "To cancel a service",
               "D": "To participate in a survey"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The speaker directs listeners to 'call our 24-hour hotline' if they wish to 'make an appointment with one of our trained professionals.'"
           }
-        ]
+        ],
+        "script": "Are you confused by all the different types of investments? Worried about making the wrong choices? Then contact Fieldstone Services, the largest wealth management firm in the country. Established in 1945, our company is the nation's most popular source of investment advice, as demonstrated by our number one ranking in the National Brand Survey for seven consecutive years. This is because clients know that our employees can be trusted. They do not receive commissions, so they never try to sell unnecessary products or services. If you would like to make an appointment with one of our trained professionals, call our 24-hour hotline.\nNumber 83: What type of business is being advertised?\nNumber 84: According to the speaker, why is the company highly ranked in a survey?\nNumber 85: Why should listeners contact the hotline?"
       },
       {
         "group_id": "q86-88",
@@ -1017,7 +1151,8 @@
               "C": "A secretary",
               "D": "A telemarketer"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "Damien Marks from Vox Wireless calls Ms. Chen to report on inspecting her phone and explaining why he cannot repair it, identifying him as a technician."
           },
           {
             "number": 87,
@@ -1028,7 +1163,8 @@
               "C": "A device is significantly damaged.",
               "D": "A component needs to be upgraded."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "He explains that besides the cracked screen, dropping the phone 'broke several internal components,' making repairs more expensive than buying a new device."
           },
           {
             "number": 88,
@@ -1039,9 +1175,11 @@
               "C": "A free product",
               "D": "A warranty extension"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "He tells Ms. Chen, 'We'll even give you a $100 store credit for your broken phone to use on your purchase.'"
           }
-        ]
+        ],
+        "script": "Hello, Ms. Chen. It's Damien Marks from Vox Wireless. I have some bad news: I won't be able to repair your phone. I know I told you that it would be easy to replace the cracked screen. However, the problem is more serious than I thought. When you dropped your phone, you broke several internal components. This means that it's going to cost more to fix your phone than to buy a new one. Why don't you stop by the store to look at the models in stock? We'll even give you a $100 store credit for your broken phone to use on your purchase. We're open from 8:00 a.m. to 10:00 p.m. each day, and I'm here from 9:00 a.m. to 6:00 p.m. on weekdays if you have any questions.\nNumber 86: Who most likely is the speaker?\nNumber 87: What does the speaker mean when he says, \"the problem is more serious than I thought\"?\nNumber 88: What does the speaker offer?"
       },
       {
         "group_id": "q89-91",
@@ -1056,7 +1194,8 @@
               "C": "To discuss an insurance plan",
               "D": "To promote a Web site"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The speaker states this is a sales presentation for 'my company's newest application,' Scheduler 2.0, an online client appointment platform."
           },
           {
             "number": 90,
@@ -1067,7 +1206,8 @@
               "C": "Change staff assignments",
               "D": "Track employee performance"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "For managers, the speaker explains that the system lets them 'see how many clients each team member is meeting and what products they have sold.'"
           },
           {
             "number": 91,
@@ -1078,9 +1218,11 @@
               "C": "A supervisor will be introduced.",
               "D": "A questionnaire will be distributed."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "Closing his introduction, the speaker says, 'Okay, let me show you how it works,' indicating a demonstration of Scheduler 2.0 is next."
           }
-        ]
+        ],
+        "script": "Thank you for this opportunity to give a sales presentation on my company's newest application. I think it'll be perfect for your insurance firm. Um, Scheduler 2.0 is an integrated online platform that makes it easy to manage client appointments. A customer who visits your website will be prompted to select an appointment time, and the program will then automatically assign an agent. Uh, the employee will be able to access the client's information to prepare for the meeting. For managers, this system can be used to see how many clients each team member is meeting and what products they have sold. Okay, let me show you how it works, then I'll answer any questions you might have.\nNumber 89: What is the main purpose of the talk?\nNumber 90: According to the speaker, what can managers do?\nNumber 91: What will most likely happen next?"
       },
       {
         "group_id": "q92-94",
@@ -1095,7 +1237,8 @@
               "C": "Sales",
               "D": "Accounting"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "Marsha Foster says, 'I'm calling about my interview on Tuesday.' On the graphic's interview schedule, Tuesday, May 3 is designated for the Design Department."
           },
           {
             "number": 93,
@@ -1106,7 +1249,8 @@
               "C": "Change a schedule",
               "D": "Expedite a process"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "Because of a family emergency, the caller asks, 'Would it be possible to reschedule the interview?'"
           },
           {
             "number": 94,
@@ -1117,9 +1261,11 @@
               "C": "Visited a family member",
               "D": "Filled out an application"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "Regarding Aiden Parker's request for another work sample, she says, 'I dropped it off at the reception desk on Wednesday.'"
           }
-        ]
+        ],
+        "script": "Good morning, Mr. Davis. This is Marsha Foster. I'm calling about my interview on Tuesday. Unfortunately, I have a family emergency to deal with, and I won't be available until the following week. Would it be possible to reschedule the interview? Also, I received an e-mail from Aiden Parker asking me for another example of my work. Um, I dropped it off at the reception desk on Wednesday. If he hasn't received the sample yet, it should be waiting for him there. Of course, should my application be missing anything else, I'll be happy to send it.\nNumber 92: Look at the graphic. Which department is the woman applying to?\nNumber 93: What does the speaker ask the listener to do?\nNumber 94: What did the speaker do on Wednesday?"
       },
       {
         "group_id": "q95-97",
@@ -1134,7 +1280,8 @@
               "C": "It is sponsored by local organizations.",
               "D": "It will end later than expected."
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "The reporter notes that attendees at the 20th Annual Pottery Expo have gathered 'to see the work of artists from 12 different countries.'"
           },
           {
             "number": 96,
@@ -1145,7 +1292,8 @@
               "C": "Booth C",
               "D": "Booth D"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "The reporter says Matthew Walsh's booth is located 'next to the stairway on the ground floor.' On the floor map, Booth A is positioned right beside the Staircase."
           },
           {
             "number": 97,
@@ -1156,9 +1304,11 @@
               "C": "Enter a contest",
               "D": "Register for a class"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "To take the free pottery lessons, the speaker tells attendees to 'stop by the information desk to sign up for a session.'"
           }
-        ]
+        ],
+        "script": "This is Colin Edwards reporting live from the 20th Annual Pottery Expo, which is being held in Canberra this year. Hundreds of people have gathered here at Melville Hall to see the work of artists from 12 different countries. Today, I'll be interviewing Matthew Walsh, the owner of the popular local studio Rustic Ceramics. Be sure to check out his booth next to the stairway on the ground floor to view some of his creations. Before I introduce him, though, I want to let you know that free pottery lessons are being offered to all attendees. If this interests you, just stop by the information desk to sign up for a session. Now, let's meet Mr. Walsh.\nNumber 95: What is mentioned about the event?\nNumber 96: Look at the graphic. Which booth is Matthew Walsh using?\nNumber 97: According to the speaker, what can listeners do at the information desk?"
       },
       {
         "group_id": "q98-100",
@@ -1173,7 +1323,8 @@
               "C": "An employee is being transferred.",
               "D": "A team is starting a new project."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "Emily O'Neil explains they need another chair because 'someone from sales will be joining our team on October 13th.'"
           },
           {
             "number": 99,
@@ -1184,7 +1335,8 @@
               "C": "$40",
               "D": "$60"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "The speaker states the chair costs $45 and mentions using a downloaded coupon. The coupon graphic offers '$10 off any purchase over $40' (and $20 off over $60), so a $45 purchase earns a $10 discount."
           },
           {
             "number": 100,
@@ -1195,9 +1347,11 @@
               "C": "Contact a supplier",
               "D": "Drop by a store"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "Near the end of her voicemail, she promises, 'I'll e-mail you the requisition form in a few minutes.'"
           }
-        ]
+        ],
+        "script": "Good afternoon, Mr. Choi. This is Emily O'Neil from marketing. My manager asked that I contact the accounting department about buying a piece of furniture. We were just notified that someone from sales will be joining our team on October 13th, and we need another chair. The model we would like to purchase is available at Dixon's Office Supply for $45. I called the nearest branch, and the person I spoke to said it was in stock. She also mentioned that we could get a discount if we downloaded a coupon. I'll e-mail you the requisition form in a few minutes. Please call me at extension 674 if you have any questions. Thank you.\nNumber 98: Why does the speaker need to purchase furniture?\nNumber 99: Look at the graphic. How much of a discount will the company most likely receive?\nNumber 100: What does the speaker say she will do?"
       }
     ]
   },
@@ -1212,7 +1366,8 @@
           "C": "fulfilled",
           "D": "fulfill"
         },
-        "answer": "B"
+        "answer": "B",
+        "explanation": "After the preposition 'for,' a gerund ('fulfilling') is required because it takes the direct object 'the safety requirements.' The noun 'fulfillment' (A) cannot directly take an object without 'of.'"
       },
       {
         "number": 102,
@@ -1223,7 +1378,8 @@
           "C": "enrollment",
           "D": "to enroll"
         },
-        "answer": "D"
+        "answer": "D",
+        "explanation": "An infinitive of purpose ('to enroll') is needed to explain why people are lining up in the hotel lobby. Finite verb forms (A, B) or the noun 'enrollment' (C) cannot link grammatically to the main clause."
       },
       {
         "number": 103,
@@ -1234,7 +1390,8 @@
           "C": "was announced",
           "D": "announced"
         },
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Because the subject ('Tel-Com Corp.'s merger...') receives the action of announcing and the time phrase 'on Monday last week' signals past time, the past passive 'was announced' is required."
       },
       {
         "number": 104,
@@ -1245,7 +1402,8 @@
           "C": "his",
           "D": "himself"
         },
-        "answer": "D"
+        "answer": "D",
+        "explanation": "The idiomatic phrase 'by oneself' (meaning 'alone') requires the reflexive pronoun 'himself' to agree with the singular male subject 'Mr. Kim.'"
       },
       {
         "number": 105,
@@ -1256,7 +1414,8 @@
           "C": "complimented",
           "D": "complimentary"
         },
-        "answer": "D"
+        "answer": "D",
+        "explanation": "Between the article 'a' and the noun 'T-shirt,' an adjective is needed; 'complimentary' means 'given free of charge.'"
       },
       {
         "number": 106,
@@ -1267,7 +1426,8 @@
           "C": "background",
           "D": "quality"
         },
-        "answer": "A"
+        "answer": "A",
+        "explanation": "The uncountable noun 'equipment' (tools or gear needed for moving) fits both 'specialized' and the context of handling fragile items."
       },
       {
         "number": 107,
@@ -1278,7 +1438,8 @@
           "C": "prohibits",
           "D": "releases"
         },
-        "answer": "C"
+        "answer": "C",
+        "explanation": "'Prohibits' ('forbids') completes both the meaning and the grammatical structure 'prohibit [someone] from [-ing]' ('from taking any photos')."
       },
       {
         "number": 108,
@@ -1289,7 +1450,8 @@
           "C": "reported",
           "D": "reporting"
         },
-        "answer": "B"
+        "answer": "B",
+        "explanation": "An imperative clause beginning with 'please' takes the base form of the verb ('report')."
       },
       {
         "number": 109,
@@ -1300,7 +1462,8 @@
           "C": "across",
           "D": "inside"
         },
-        "answer": "C"
+        "answer": "C",
+        "explanation": "'Across the street from' is a fixed prepositional expression indicating a location on the opposite side of the street."
       },
       {
         "number": 110,
@@ -1311,7 +1474,8 @@
           "C": "writes",
           "D": "had written"
         },
-        "answer": "D"
+        "answer": "D",
+        "explanation": "Because Dr. Germain completed writing the papers prior to another past action ('before she retired a few years ago'), the past perfect tense 'had written' is required."
       },
       {
         "number": 111,
@@ -1322,7 +1486,8 @@
           "C": "rarely",
           "D": "concisely"
         },
-        "answer": "C"
+        "answer": "C",
+        "explanation": "The contrast conjunction 'but' opposes his frequent e-mails with seldom being physically in the office, making 'rarely' ('seldom') fit best."
       },
       {
         "number": 112,
@@ -1333,7 +1498,8 @@
           "C": "opposes",
           "D": "opposing"
         },
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Following the preposition 'due to' and the adjectives 'overwhelming public,' a noun ('opposition') is needed as the object of the preposition."
       },
       {
         "number": 113,
@@ -1344,7 +1510,8 @@
           "C": "adjustable",
           "D": "committed"
         },
-        "answer": "C"
+        "answer": "C",
+        "explanation": "'Adjustable' ('able to be altered') logically explains how the chair can comfortably fit people of varying heights."
       },
       {
         "number": 114,
@@ -1355,7 +1522,8 @@
           "C": "prior to",
           "D": "by means of"
         },
-        "answer": "B"
+        "answer": "B",
+        "explanation": "A subordinating conjunction of time is needed before the full clause 'all the audience members have taken their seats'; 'as soon as' ('immediately when') fits both grammar and meaning, unlike prepositions (C, D)."
       },
       {
         "number": 115,
@@ -1366,7 +1534,8 @@
           "C": "cautiously",
           "D": "diversely"
         },
-        "answer": "B"
+        "answer": "B",
+        "explanation": "'Effortlessly' ('with ease') matches her confidence about defeating her opponent 'by a wide margin.'"
       },
       {
         "number": 116,
@@ -1377,7 +1546,8 @@
           "C": "simultaneous",
           "D": "equivalent"
         },
-        "answer": "B"
+        "answer": "B",
+        "explanation": "'Appropriate' ('suitable') collocates with 'for' ('appropriate for all ages') to describe a family-friendly movie."
       },
       {
         "number": 117,
@@ -1388,7 +1558,8 @@
           "C": "reasonability",
           "D": "reasoned"
         },
-        "answer": "B"
+        "answer": "B",
+        "explanation": "An adverb ('reasonably') is required to modify the participial adjective 'priced' ('reasonably priced accommodations')."
       },
       {
         "number": 118,
@@ -1399,7 +1570,8 @@
           "C": "formal",
           "D": "consistent"
         },
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Because neither company has confirmed an acquisition, the reports remain uncertain or 'tentative' ('not final or confirmed')."
       },
       {
         "number": 119,
@@ -1410,7 +1582,8 @@
           "C": "arriving",
           "D": "have arrived"
         },
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Since the sentence already has a main verb ('must be thoroughly inspected'), the present participle 'arriving' (short for 'that arrive') is needed to modify 'All goods.'"
       },
       {
         "number": 120,
@@ -1421,7 +1594,8 @@
           "C": "yet",
           "D": "still"
         },
-        "answer": "B"
+        "answer": "B",
+        "explanation": "'Only' modifies the adverbial clause 'after a customer has presented a receipt' to express a strict condition ('exclusively after')."
       },
       {
         "number": 121,
@@ -1432,7 +1606,8 @@
           "C": "priority",
           "D": "direction"
         },
-        "answer": "C"
+        "answer": "C",
+        "explanation": "'Takes priority' is an idiomatic collocation meaning 'is treated as most important,' matching the contrast 'despite his hectic work schedule.'"
       },
       {
         "number": 122,
@@ -1443,7 +1618,8 @@
           "C": "whenever",
           "D": "that"
         },
-        "answer": "C"
+        "answer": "C",
+        "explanation": "The subordinating conjunction 'whenever' ('every time that') grammatically and logically connects the main clause to 'they buy a plane ticket.'"
       },
       {
         "number": 123,
@@ -1454,7 +1630,8 @@
           "C": "furnish",
           "D": "familiarize"
         },
-        "answer": "B"
+        "answer": "B",
+        "explanation": "'Accommodate' means 'have space for' or 'hold' a given number of guests ('about 40 persons')."
       },
       {
         "number": 124,
@@ -1465,7 +1642,8 @@
           "C": "Given that",
           "D": "Rather"
         },
-        "answer": "B"
+        "answer": "B",
+        "explanation": "'Compared to' is a prepositional phrase introducing the noun phrase 'the unfavorable feedback...' to contrast past criticism with this year's positive results."
       },
       {
         "number": 125,
@@ -1476,7 +1654,8 @@
           "C": "numerically",
           "D": "casually"
         },
-        "answer": "A"
+        "answer": "A",
+        "explanation": "'Regularly' ('on a routine basis') explains why the Web site displayed filled vacancies when it was not kept up to date."
       },
       {
         "number": 126,
@@ -1487,7 +1666,8 @@
           "C": "under",
           "D": "behind"
         },
-        "answer": "C"
+        "answer": "C",
+        "explanation": "'Under warranty' is the fixed idiomatic expression meaning 'covered by a guarantee.'"
       },
       {
         "number": 127,
@@ -1498,7 +1678,8 @@
           "C": "confronted",
           "D": "suspended"
         },
-        "answer": "D"
+        "answer": "D",
+        "explanation": "'Suspended' ('temporarily halted') fits stopping production while engineers fix a brake system issue."
       },
       {
         "number": 128,
@@ -1509,7 +1690,8 @@
           "C": "so that",
           "D": "up to"
         },
-        "answer": "B"
+        "answer": "B",
+        "explanation": "The conjunction 'in case' ('if / in the event that') introduces the conditional clause explaining when Tai Shing Electronics outsources manufacturing."
       },
       {
         "number": 129,
@@ -1520,7 +1702,8 @@
           "C": "in honor of",
           "D": "along with"
         },
-        "answer": "D"
+        "answer": "D",
+        "explanation": "The prepositional phrase 'along with' ('together with') connects 'Patrick Jolson' to the noun phrase 'three other promising candidates.'"
       },
       {
         "number": 130,
@@ -1531,7 +1714,8 @@
           "C": "wealth",
           "D": "leisure"
         },
-        "answer": "C"
+        "answer": "C",
+        "explanation": "'A wealth of' is an idiomatic noun phrase meaning 'an abundance of,' matching the county's access to both mountains and the ocean."
       }
     ],
     "part6": [
@@ -1549,7 +1733,8 @@
               "C": "submission",
               "D": "lecture"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "The next sentence refers to 'Your talk on creative problem-solving,' so the noun 'lecture' ('educational talk') fits the context."
           },
           {
             "number": 132,
@@ -1560,7 +1745,8 @@
               "C": "attending",
               "D": "attendance"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "Between 'all my' and the plural noun 'students,' the present participle 'attending' works as an adjective meaning 'who attended the session.'"
           },
           {
             "number": 133,
@@ -1571,7 +1757,8 @@
               "C": "whose",
               "D": "they"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "A non-restrictive relative clause modifying 'My students' and serving as the subject of 'major' requires the relative pronoun 'who.'"
           },
           {
             "number": 134,
@@ -1582,7 +1769,8 @@
               "C": "My sessions lasted longer than the last ones.",
               "D": "There were some points that I took issue with."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The preceding sentence notes that all students rated the session highly, and the next begins with 'Accordingly' to invite Mr. Weber back; (B) praises him as the best guest speaker, linking the two thoughts smoothly."
           }
         ]
       },
@@ -1600,7 +1788,8 @@
               "C": "The choices we make will have a significant impact on the university.",
               "D": "Some of you failed to fully complete the recommendation form."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "Explaining that faculty promotion choices will significantly affect the university (C) provides the logical reason for the next sentence: 'Therefore, please consider the potential candidates carefully.'"
           },
           {
             "number": 136,
@@ -1611,7 +1800,8 @@
               "C": "descriptive",
               "D": "previous"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "When evaluating candidates for promotion, deans must look back at their 'previous' ('past') teaching performance and accomplishments."
           },
           {
             "number": 137,
@@ -1622,7 +1812,8 @@
               "C": "specify",
               "D": "specification"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "In 'answer all of the questions as [137] as possible,' an adverb ('specifically') is needed to modify the verb 'answer.'"
           },
           {
             "number": 138,
@@ -1633,7 +1824,8 @@
               "C": "prolong",
               "D": "guide"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "'Guide' ('direct or assist') logically describes how the paperwork and instructions help the decision-making process, unlike 'impede' (A) or 'prolong' (C)."
           }
         ]
       },
@@ -1651,7 +1843,8 @@
               "C": "already",
               "D": "no later"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "'No later than' expresses the required arrival deadline ('at least 30 minutes before opening time'), whereas 'no more' measures quantity rather than time."
           },
           {
             "number": 140,
@@ -1662,7 +1855,8 @@
               "C": "Some of the food items have been identified as top sellers.",
               "D": "We believe the status of our regular vendors has changed."
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "Right after reminding vendors to stay informed about state regulations and guidelines, (A) naturally follows up with the consequence of noncompliance ('lose their vending license')."
           },
           {
             "number": 141,
@@ -1673,7 +1867,8 @@
               "C": "merchandise",
               "D": "dimension"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The very next sentence states, 'Those closer to the entrance will be charged more,' confirming that the fee depends on each stall's 'location.'"
           },
           {
             "number": 142,
@@ -1684,7 +1879,8 @@
               "C": "Therefore",
               "D": "Regardless"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "Because leaving litter in the sales area is illegal, 'Therefore' ('as a result') logically introduces the requirement to keep a trash receptacle on hand."
           }
         ]
       },
@@ -1702,7 +1898,8 @@
               "C": "have been voting",
               "D": "voted"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "Because the vote has already occurred and produced a result ('It was concluded... the city approved'), the simple past verb 'voted' is required."
           },
           {
             "number": 144,
@@ -1713,7 +1910,8 @@
               "C": "supportable",
               "D": "supports"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "After the linking verb 'are,' an adjective is needed, and 'supportive' completes the collocation 'be supportive of [the project].'"
           },
           {
             "number": 145,
@@ -1724,7 +1922,8 @@
               "C": "fixed up",
               "D": "shut down"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "'Shut down' ('closed') explains why the city was 'left... without any functional leisure facilities at all' after the club's 30 years of use."
           },
           {
             "number": 146,
@@ -1735,7 +1934,8 @@
               "C": "The mayor delivered an inspiring opening speech.",
               "D": "Some modifications were required before the decision was made."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "(B) introduces residents' belief that the new sports facility will greatly benefit the town, which Claire Faukes's quote immediately supports by listing accessibility and community benefits."
           }
         ]
       }
@@ -1761,7 +1961,8 @@
               "C": "A grand opening",
               "D": "A cooking competition"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The invitation announces 'the Launch of Ricardo's Corner!' and explains that after four months of construction, the store is 'finally ready to welcome customers,' indicating a grand opening."
           },
           {
             "number": 148,
@@ -1772,7 +1973,8 @@
               "C": "It sells ingredients from different regions.",
               "D": "It will offer coupons to all visiting customers."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The invitation states that Ricardo's Corner imports its products 'from throughout Mexico, the Caribbean, and Central and South America.'"
           }
         ]
       },
@@ -1796,7 +1998,8 @@
               "C": "To provide details on emergency safety procedures",
               "D": "To inform members of guidelines concerning belongings"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "Paragraph 1 states the notice's aim: 'we would like to remind all members about our policies regarding personal items.'"
           },
           {
             "number": 150,
@@ -1807,7 +2010,8 @@
               "C": "Write to a head office",
               "D": "Post a note on a bulletin board"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "Paragraph 3 instructs members: 'Should you lose any belongings during your visit, please notify a staff member at the front desk.'"
           },
           {
             "number": 151,
@@ -1818,7 +2022,8 @@
               "C": "[3]",
               "D": "[4]"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "Right before [3], the text says 'front desk staff... will put them in a safety deposit box,' so 'They will provide you with a ticket which must be presented to retrieve your stored items' links directly via 'They' and 'stored items.'"
           }
         ]
       },
@@ -1842,7 +2047,8 @@
               "C": "She does not want to accept a proposal.",
               "D": "She wants to leave the office early."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "After saying 'I wish I could' in response to Colin's request to swap appointment times, Ms. Chan adds, 'But I have to go to the plant at noon,' showing she cannot switch."
           },
           {
             "number": 153,
@@ -1853,7 +2059,8 @@
               "C": "Check some sales figures",
               "D": "Rearrange an appointment"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "Following Brenda's suggestion to move his lunch meeting an hour earlier, Colin writes, 'I guess I will have to do that. In fact, I'd better phone the client now.'"
           }
         ]
       },
@@ -1877,7 +2084,8 @@
               "C": "A price has been changed.",
               "D": "A shipment has been lost."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "Mr. Compton informs Ms. Patton that 'the cookie jar you selected is out of stock due to its popularity' and will not ship for about three weeks."
           },
           {
             "number": 155,
@@ -1888,7 +2096,8 @@
               "C": "Canceling a single item",
               "D": "Returning a defective product"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "Mr. Compton offers canceling the item for a refund (C), substituting an in-stock item (B), or delaying shipment until everything is ready (A), but says nothing about returning a defective product."
           }
         ]
       },
@@ -1912,7 +2121,8 @@
               "C": "Auditioning main actors",
               "D": "Talking about a shot sequence"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The calendar lists budget talks (Oct 2), script changes (Oct 3 and 9), and an opening-sequence discussion (Oct 8), as well as rehearsals, but does not schedule any actor auditions."
           },
           {
             "number": 157,
@@ -1923,7 +2133,8 @@
               "C": "At 2:30 P.M.",
               "D": "At 3:30 P.M."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The first rehearsal is on Friday the 5th at 1:30 P.M., and the second ('Attend rehearsal with actors') is scheduled on Wednesday the 10th at '2 P.M.'"
           }
         ]
       },
@@ -1947,7 +2158,8 @@
               "C": "It advises the government on medical concerns.",
               "D": "It holds seminars on maintaining a healthy diet."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The article cites a 'new survey,' 'its last survey conducted a decade ago,' and 'a similar survey... published 20 years ago,' proving the institute has produced at least three studies."
           },
           {
             "number": 159,
@@ -1958,7 +2170,8 @@
               "C": "Running at a slow pace",
               "D": "Engaging in competitive sport"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "Paragraph 3 reports that among exercising Americans, '65 percent say they jog slowly,' making slow running the most popular activity."
           },
           {
             "number": 160,
@@ -1969,7 +2182,8 @@
               "C": "They got more exercise a decade ago.",
               "D": "They spend most of their spare time exercising."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "Compared to 20 years ago, far more Americans now exercise (80% vs. 23% back then) and the share 'monitoring their food intake and endeavoring to make smart food choices has risen 11 percent.'"
           },
           {
             "number": 161,
@@ -1980,7 +2194,8 @@
               "C": "[3]",
               "D": "[4]"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "Paragraph 2 lists the percentages of Americans who exercise (45% + 25% + 10% = 80%), so 'The rest of them say they do not work out at all' naturally completes the breakdown at [1]."
           }
         ]
       },
@@ -2004,7 +2219,8 @@
               "C": "It charges a small commission on every transaction.",
               "D": "It sells tickets at the lowest prices on the market."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "Near the bottom, the site notes that for a refund, 'it is necessary to contact us within 30 days of purchase,' meaning refunds are available only for a limited 30-day window."
           },
           {
             "number": 163,
@@ -2015,7 +2231,8 @@
               "C": "October 15",
               "D": "October 26"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "Under 'Your Results,' the university orchestra ('University Symphony Orchestra') is scheduled to perform on 'October 3, Finkle University.'"
           },
           {
             "number": 164,
@@ -2026,7 +2243,8 @@
               "C": "Fill in an online form with some details",
               "D": "Create an advertisement to post on the site"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The final sentence instructs sellers to 'Click here to go to our sellers' page and enter the requested information.'"
           }
         ]
       },
@@ -2050,7 +2268,8 @@
               "C": "It recently updated many of its facilities.",
               "D": "It is considering introducing a new service."
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "Offering guests who complete the survey free use of the business center 'upon their next visit' implies the hotel normally charges a fee for those facilities."
           },
           {
             "number": 166,
@@ -2061,7 +2280,8 @@
               "C": "An occupied meeting venue",
               "D": "A poor Internet connection"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "In response to 'How could we improve our facilities?', Mr. Gould complains that 'The printer you have now doesn't work very well. It printed slowly and sometimes stopped altogether.'"
           },
           {
             "number": 167,
@@ -2072,7 +2292,8 @@
               "C": "He printed out some documents.",
               "D": "He recommended the hotel to a coworker."
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "Mr. Gould mentions his client business meeting (A), praises staffer Erin Minors (B), and says he printed contracts (C), but never mentions recommending the hotel to a coworker."
           }
         ]
       },
@@ -2096,7 +2317,8 @@
               "C": "It consists of recordings with other artists.",
               "D": "It was produced at a recording studio in Paris."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "Paragraph 1 states that Mr. Martin's previous album, La Defense, 'was still listed at the top of music charts after being there for six weeks.'"
           },
           {
             "number": 169,
@@ -2107,7 +2329,8 @@
               "C": "He has not performed in public for three years.",
               "D": "He produced a best-selling album for James Norwell."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "Paragraph 2 notes that after breaking his left arm 'three years ago,' he 'canceled all scheduled interviews and appearances' and seemed to stop playing until his current comeback recording."
           },
           {
             "number": 170,
@@ -2118,7 +2341,8 @@
               "C": "Ways to contact his agent",
               "D": "Album release information"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "Paragraph 3 states, 'According to an announcement on Martin's Web site, his next album, Normandy, will be released this November by BBS Records.'"
           },
           {
             "number": 171,
@@ -2129,7 +2353,8 @@
               "C": "By being interviewed by journalists",
               "D": "By writing about it on his music blog"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "Paragraph 4 explains that 'To build excitement for Normandy, Martin released the first single from that album,' titled 'Summer Squall.'"
           }
         ]
       },
@@ -2153,7 +2378,8 @@
               "C": "A company is having trouble finding qualified personnel.",
               "D": "A team has been given the task of developing a Web site."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "Mr. Walker opens by stating 'the majority of applicants do not seem appropriate for our needs' and asks for ideas on attracting qualified candidates."
           },
           {
             "number": 173,
@@ -2164,7 +2390,8 @@
               "C": "It recently stopped running a job advertisement.",
               "D": "It has more than one office location."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The chat mentions attending job fairs (A), rapid growth (B), and having both headquarters and a Pendleton branch (D), whereas stopping a job advertisement is never mentioned."
           },
           {
             "number": 174,
@@ -2175,7 +2402,8 @@
               "C": "She thinks that candidates should have to fulfill a certain condition.",
               "D": "She does not fully agree with a colleague's proposal."
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "After praising Luke's idea of contacting candidates online, Ms. Page writes 'There's just one thing' to introduce her objection that emailing each person would take too much time."
           },
           {
             "number": 175,
@@ -2186,7 +2414,8 @@
               "C": "Register the company for a recruitment event",
               "D": "Give candidates a tour of the workplace"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "At 4:55, Mr. Walker instructs, 'Alice and Luke, I'd like you to start making a list of names' before organizing the open house."
           }
         ]
       },
@@ -2215,7 +2444,8 @@
               "C": "An academic gathering regarding history",
               "D": "A series of presentations from graduate students"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "Titled 'New Developments in Ancient History,' the schedule covers panels and smaller sessions on ancient history topics like Egypt, Korea, Greece, and Rome."
           },
           {
             "number": 177,
@@ -2226,7 +2456,8 @@
               "C": "Zoe Harris",
               "D": "Michael Jones"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "From 1 to 2 P.M., Michael Jones is scheduled to present on 'Popular Attire in the Roman Empire' ('attire' means clothing)."
           },
           {
             "number": 178,
@@ -2237,7 +2468,8 @@
               "C": "It is one of the largest hotels in the city.",
               "D": "It is hosting more than one event on July 25."
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "Under the 12-1 P.M. lunch entry, the schedule notes, 'The main dining hall is occupied for another event on this day,' showing the hotel is hosting multiple events on July 25."
           },
           {
             "number": 179,
@@ -2248,7 +2480,8 @@
               "C": "She needs to check in to her hotel room.",
               "D": "She has a work assignment to complete."
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "Ms. Christie writes that 'due to the timing of my bus from Adelaide, I will be unable to arrive at the venue until around 10:15 A.M.,' after 9-10 A.M. registration closes."
           },
           {
             "number": 180,
@@ -2259,7 +2492,8 @@
               "C": "In the Main Conference Hall",
               "D": "In the lobby"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "Ms. Christie mentions she is a vegetarian, and the schedule states that 'Options for those with special dietary needs will be available, but only in the Hampton Conference room.'"
           }
         ]
       },
@@ -2288,7 +2522,8 @@
               "C": "A new navigation program",
               "D": "A searchable city map"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The article introduces Ped-Routes, 'A new mobile application' using GPS technology to guide cyclists and pedestrians along less congested routes."
           },
           {
             "number": 182,
@@ -2299,7 +2534,8 @@
               "C": "A government agency",
               "D": "A software developer"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "Paragraph 2 explicitly describes Two Wheels as 'the cycling association Two Wheels' that funded Ped-Routes."
           },
           {
             "number": 183,
@@ -2310,7 +2546,8 @@
               "C": "Hiked in the mountains",
               "D": "Rented a car"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "In her e-mail, Ms. McGrath states, 'I just moved here [Providence] last month for a job.'"
           },
           {
             "number": 184,
@@ -2321,7 +2558,8 @@
               "C": "She paid for a one-year subscription to the application.",
               "D": "She will be charged an extra fee to see walking routes."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "Ms. McGrath writes that she recently downloaded Ped-Routes, and the article states it 'is downloadable for a cost of $4.99, which gives users access for a period of one year.'"
           },
           {
             "number": 185,
@@ -2332,7 +2570,8 @@
               "C": "It is a trial program for cyclists.",
               "D": "It costs less than similar software."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "Ms. McGrath ends her e-mail by commending 'the general quality of the interface and the impressive speed at which the app works.'"
           }
         ]
       },
@@ -2366,7 +2605,8 @@
               "C": "It prints one newsletter issue weekly.",
               "D": "It hosts events for job seekers."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The flyer states that Shelton Media produces a 'monthly newsletter,' not a weekly one, whereas it accepts multiple payment methods (A), targets Birmingham residents (B), and hosts career fairs (D)."
           },
           {
             "number": 187,
@@ -2377,7 +2617,8 @@
               "C": "24",
               "D": "30"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The flyer tells clients seeking discounted long-term rates to 'speak to Daniel Kelly,' and the Web page lists Daniel Kelly under Advertising sales at 'extension 18.'"
           },
           {
             "number": 188,
@@ -2388,7 +2629,8 @@
               "C": "Enter a monthly draw",
               "D": "Chat with a company representative"
             },
-            "answer": "A"
+            "answer": "A",
+            "explanation": "The bottom of the Web page encourages visitors to 'tell us what you think of our site and our services' by filling out an online comment form."
           },
           {
             "number": 189,
@@ -2399,7 +2641,8 @@
               "C": "It will increase its budget for advertising.",
               "D": "It is a new company in the region."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "Ms. Loeb urges placing the new ads soon 'because it's almost spring and our services will be more in demand.'"
           },
           {
             "number": 190,
@@ -2410,7 +2653,8 @@
               "C": "$165",
               "D": "$175"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "Lawler Scapes advertised for '12 months' (12 monthly issues) at $255 per ad (Full page, 12 issues). Ms. Loeb recommends renewing for 'the same amount of time' (12 issues) in 'the next size smaller' (1/2 page), which the rate table lists at '$165.'"
           }
         ]
       },
@@ -2444,7 +2688,8 @@
               "C": "It is offered by Borderland Tours year-round.",
               "D": "It is scheduled to last for about a month."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The Web page states the 30-day Sahara tour is offered 'This winter, between December 1 and February 28,' not year-round."
           },
           {
             "number": 192,
@@ -2455,7 +2700,8 @@
               "C": "Provide a home address",
               "D": "Arrange for necessary visas"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The booking form instructs travelers to 'send us a deposit of $500 to reserve your spot,' which is later applied toward the total cost."
           },
           {
             "number": 193,
@@ -2466,7 +2712,8 @@
               "C": "He took a safety course before his trip.",
               "D": "He had to pay extra for changing his reservation."
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "The Web page requires a doctor-signed health certificate proving each traveler is 'physically sound and capable of completing the trip,' and Mr. Turner's review confirms he completed the tour."
           },
           {
             "number": 194,
@@ -2477,7 +2724,8 @@
               "C": "The incompatibility of the group members",
               "D": "The lack of variety of meal options"
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "In his review, Mr. Turner complains that the food was disappointing because 'the tour company provided most of the meals, which became repetitive.'"
           },
           {
             "number": 195,
@@ -2488,7 +2736,8 @@
               "C": "Atar",
               "D": "Tagant"
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "On the booking form, Mr. Turner says he most wanted 'the one that involves traveling by train,' which his review identifies as 'take a train to Atar.'"
           }
         ]
       },
@@ -2522,7 +2771,8 @@
               "C": "To accommodate an excess of customers",
               "D": "To take advantage of a district's growing popularity"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "Mr. Suarez explains in the article that there is strong demand from business travelers 'who need to stay in Buenos Aires for long periods of time' without paying full-service hotel prices."
           },
           {
             "number": 197,
@@ -2533,7 +2783,8 @@
               "C": "It could open later than August.",
               "D": "It may offer a valet parking service."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "In his letter, Mr. Suarez corrects the article's August opening estimate, writing, 'we are actually planning for somewhat later than that.'"
           },
           {
             "number": 198,
@@ -2544,7 +2795,8 @@
               "C": "It failed to mention a special promotion.",
               "D": "It prompted readers to contact Autumn Leaf."
             },
-            "answer": "D"
+            "answer": "D",
+            "explanation": "Mr. Suarez states in his letter, 'We have been receiving inquiries from readers of your article about this [bookings].'"
           },
           {
             "number": 199,
@@ -2555,7 +2807,8 @@
               "C": "He visited Monserrat sometime in March.",
               "D": "He was hired by Autumn Leaf to write his article."
             },
-            "answer": "C"
+            "answer": "C",
+            "explanation": "The article places Autumn Leaf's 'main branch in Monserrat,' and Mr. Oldman writes on April 13 that he interviewed staff 'at Autumn Leaf's main branch last month' (March)."
           },
           {
             "number": 200,
@@ -2566,7 +2819,8 @@
               "C": "located",
               "D": "relieved"
             },
-            "answer": "B"
+            "answer": "B",
+            "explanation": "In the phrase 'once the hotel's opening date has been settled' (echoing that the date 'hasn't been established yet'), 'settled' means 'finalized.'"
           }
         ]
       }

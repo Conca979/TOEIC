@@ -959,7 +959,7 @@ html.no-native-switch input[type="checkbox"][switch]:checked::before {
   color: var(--text-muted);
 }
 
-/* Script & Transcript Notes Panel */
+/* Script Panel & Per-Question Explanation Toggle */
 .script-panel {
   margin-block-start: 0.85rem;
   padding: 0.9rem;
@@ -969,7 +969,7 @@ html.no-native-switch input[type="checkbox"][switch]:checked::before {
   border-radius: var(--radius-sm);
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.55rem;
   font-size: 0.875rem;
 }
 
@@ -986,21 +986,50 @@ html.no-native-switch input[type="checkbox"][switch]:checked::before {
   font-size: 0.875rem;
 }
 
-.script-breakdown {
-  margin: 0;
-  padding-inline-start: 1.1rem;
+.script-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  line-height: 1.55;
   color: var(--text-main);
 }
 
-.script-textarea {
-  inline-size: 100%;
-  min-block-size: 72px;
-  padding: 0.55rem;
-  border: 1px solid var(--border-strong);
+.script-line {
+  margin: 0;
+}
+
+.q-footer {
+  margin-block-start: 0.7rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.explanation-panel {
+  margin-block-start: 0.5rem;
+  padding: 0.75rem 0.9rem;
+  background: var(--bg-page);
+  border: 1px solid var(--border-color);
+  border-inline-start: 3px solid var(--success-color);
   border-radius: var(--radius-sm);
-  background: var(--bg-surface);
-  resize: vertical;
-  font-size: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.875rem;
+}
+
+.explanation-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.explanation-text {
+  margin: 0;
+  color: var(--text-main);
+  line-height: 1.5;
 }
 
 /* Desktop Sidebar Palette */

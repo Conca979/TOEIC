@@ -36,12 +36,10 @@
       "json_path": "test-04/test.json",
       "audio_file": "Hacker 3/AUDIO/TEST 4.mp3",
       "question_count": 200,
-      "image_count": 7,
-      "complete": false,
+      "image_count": 11,
+      "complete": true,
       "missing_notes": [
-        "Listening Part 1 Q1-Q2: source page missing from source_listening.pdf (book p. 65 absent; official answers C, D preserved from AK-Listening-Test04.jpg; image fields marked '[missing in source PDF]').",
-        "Listening Part 3 Q65-Q70 (groups q65-67, q68-70): source page missing from source_listening.pdf (book p. 72 absent; official answers preserved from AK-Listening-Test04.jpg; question text, options, and potential graphic image fields marked '[missing in source PDF]').",
-        "Listening Part 4 Q71-Q82 (groups q71-73, q74-76, q77-79, q80-82): source pages missing from source_listening.pdf (book pp. 72-73 absent; official answers preserved from AK-Listening-Test04.jpg; question text and options marked '[missing in source PDF]')."
+        "Source PDF pp. 40-48 omitted Listening Part 1 Q1-Q2, Part 3 Q65-Q70, and Part 4 Q71-Q82. Simulated questions, options, Part 1 photos, and Part 3 graphics have been generated from extracted/test-04/script.md and aligned with official answers in AK-Listening-Test04.jpg."
       ]
     },
     {

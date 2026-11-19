@@ -63,7 +63,7 @@
     timerPaused: false,
     timerInterval: null,
     openScripts: new Set(),
-    revealedKeys: new Set(),
+    openExplanations: new Set(),
     attempt: null,
     scripts: {},
     lastAudioSave: 0,
@@ -496,12 +496,15 @@
         const best = testHist.length ? Math.max(...testHist.map((h) => h.totalScaled)) : null;
         const last = testHist.length ? testHist[0].totalScaled : null;
 
-        const statusBadge = meta.complete
-          ? '<span class="badge badge-success">Complete</span>'
-          : '<span class="badge badge-warn">Partial PDF</span>';
+        const hasSimNotes = Boolean(meta.missing_notes && meta.missing_notes.length);
+        const statusBadge = !meta.complete
+          ? '<span class="badge badge-warn">Partial PDF</span>'
+          : hasSimNotes
+            ? '<span class="badge badge-accent">Complete (Simulated)</span>'
+            : '<span class="badge badge-success">Complete</span>';
 
-        const missingHtml = meta.missing_notes && meta.missing_notes.length
-          ? `<div class="muted-text" style="font-size:0.78rem;">Note: Source PDF omits Listening Q1-2, Q65-70, Q71-82 (answers preserved).</div>`
+        const missingHtml = hasSimNotes
+          ? `<div class="muted-text" style="font-size:0.78rem;">Includes simulated Q1-2, Q65-70, Q71-82 generated from script.md.</div>`
           : '';
 
         const primaryLabel = attempt && attempt.submitted
@@ -653,32 +656,67 @@
       .join('');
   }
 
-  function renderScriptPanel(scriptKey, title, breakdownItems, answerSummary, extraTranscript) {
+  function formatScriptText(rawScript) {
+    const lines = String(rawScript || '')
+      .split('\n')
+      .map((l) => l.trim())
+      .filter(Boolean);
+    if (lines.length === 0) {
+      return '<p class="muted-text" style="margin:0;">No script available.</p>';
+    }
+    return lines
+      .map((line) => {
+        const speakerMatch = line.match(/^((?:Man|Woman|Speaker)(?:\s*\d+)?(?:\s*\([^)]+\))?:)\s*(.*)$/);
+        if (speakerMatch) {
+          return `<p class="script-line"><strong>${escapeHtml(speakerMatch[1])}</strong> ${escapeHtml(speakerMatch[2])}</p>`;
+        }
+        const optMatch = line.match(/^(\([A-D]\))\s*(.*)$/);
+        if (optMatch) {
+          return `<p class="script-line"><strong>${escapeHtml(optMatch[1])}</strong> ${escapeHtml(optMatch[2])}</p>`;
+        }
+        return `<p class="script-line">${escapeHtml(line)}</p>`;
+      })
+      .join('');
+  }
+
+  function renderScriptPanel(scriptKey, title, rawScript) {
     const isOpen = state.showScript || state.openScripts.has(scriptKey);
     if (!isOpen) return '';
-
-    const noteVal = state.scripts[scriptKey] || '';
-    const keyVisible = state.attempt.submitted || state.reviewMode || state.revealedKeys.has(scriptKey);
-    const itemsHtml = breakdownItems.map((line) => `<li>${line}</li>`).join('');
-    const jsonTranscript = extraTranscript
-      ? `<p class="muted-text" style="margin:0;">${escapeHtml(extraTranscript)}</p>`
-      : '';
 
     return `
       <div class="script-panel">
         <div class="script-panel-head">
-          <h3>Script &amp; Study Notes — ${escapeHtml(title)}</h3>
-          <div style="display:flex;gap:0.4rem;align-items:center;">
-            ${keyVisible ? `<span class="badge badge-accent">${escapeHtml(answerSummary)}</span>` : `<button type="button" class="btn btn-outline btn-xs" data-reveal-key="${escapeHtml(scriptKey)}">Reveal Answer Key</button>`}
-          </div>
+          <h3>Script &mdash; ${escapeHtml(title)}</h3>
         </div>
-        ${jsonTranscript}
-        <ul class="script-breakdown">${itemsHtml}</ul>
-        <label style="font-size:0.78rem;color:var(--text-muted);" for="note-${escapeHtml(scriptKey)}">
-          Transcript / Personal Audio Notes (auto-saved to localStorage):
-        </label>
-        <textarea id="note-${escapeHtml(scriptKey)}" class="script-textarea" data-script-note="${escapeHtml(scriptKey)}" placeholder="Type or paste spoken script lines or vocabulary notes for ${escapeHtml(title)}...">${escapeHtml(noteVal)}</textarea>
+        <div class="script-lines">${formatScriptText(rawScript)}</div>
       </div>
+    `;
+  }
+
+  function renderExplanationBlock(qObj) {
+    const qNum = qObj.number;
+    const isOpen = state.openExplanations.has(qNum);
+    const simBadge = qObj.simulated ? '<span class="badge badge-warn">Simulated from script</span>' : '';
+    const panelHtml = isOpen
+      ? `
+        <div class="explanation-panel" id="explain-${qNum}">
+          <div class="explanation-head">
+            <span class="badge badge-accent">Answer: ${escapeHtml(qObj.answer)}</span>
+            ${simBadge}
+          </div>
+          <p class="explanation-text">${escapeHtml(qObj.explanation || 'No explanation available.')}</p>
+        </div>
+      `
+      : '';
+
+    return `
+      <div class="q-footer">
+        <button type="button" class="btn btn-outline btn-xs explain-toggle-btn" data-toggle-explain="${qNum}" aria-expanded="${isOpen}">
+          ${isOpen ? 'Hide Explanation' : 'Show Explanation'}
+        </button>
+        ${!isOpen ? simBadge : ''}
+      </div>
+      ${panelHtml}
     `;
   }
 
@@ -756,13 +794,7 @@
             ? `<div class="missing-box">Photograph ${escapeHtml(q.image)} — official answer key preserved. Select an option to grade.</div>`
             : `<img class="part1-image" src="${escapeHtml(resolveImagePath(testData.test_id, q.image))}" alt="Part 1 Question ${q.number}">`;
 
-          const scriptHtml = renderScriptPanel(
-            key,
-            `Question ${q.number}`,
-            ['Audio-only photograph description. Listen carefully for subjects, actions, and spatial details in statements (A)-(D).'],
-            `Answer: ${q.answer}`,
-            q.script || q.transcript || ''
-          );
+          const scriptHtml = renderScriptPanel(key, `Question ${q.number}`, q.script || q.transcript || '');
 
           return `
             <article class="question-card" id="question-${q.number}">
@@ -770,6 +802,7 @@
               ${imgHtml}
               <div class="options-list">${renderOptionButtons(q, false)}</div>
               ${scriptHtml}
+              ${renderExplanationBlock(q)}
             </article>
           `;
         });
@@ -779,18 +812,13 @@
         .filter(shouldShowQuestion)
         .map((q) => {
           const key = `q${q.number}`;
-          const scriptHtml = renderScriptPanel(
-            key,
-            `Question ${q.number}`,
-            ['Audio-only Question-Response item. Listen for WH-words, yes/no cues, or indirect answers across (A)-(C).'],
-            `Answer: ${q.answer}`,
-            q.script || q.transcript || ''
-          );
+          const scriptHtml = renderScriptPanel(key, `Question ${q.number}`, q.script || q.transcript || '');
           return `
             <article class="question-card" id="question-${q.number}">
               ${renderQuestionHeader(q.number, 'Listen to the question or statement and select the best response.', key)}
               <div class="options-list">${renderOptionButtons(q, false)}</div>
               ${scriptHtml}
+              ${renderExplanationBlock(q)}
             </article>
           `;
         });
@@ -823,25 +851,22 @@
                 <div class="q-item" id="question-${q.number}">
                   ${renderQuestionHeader(q.number, prompt, null)}
                   <div class="options-list">${renderOptionButtons(q, hideText)}</div>
+                  ${renderExplanationBlock(q)}
                 </div>
               `;
             })
             .join('');
 
-          const breakdown = g.questions.map((q) => {
-            const qText = isMissing(q.question) ? '[missing in source PDF]' : escapeHtml(q.question);
-            const optsText = Object.entries(q.options)
-              .map(([k, v]) => `(${k}) ${escapeHtml(v)}`)
-              .join(' | ');
-            return `<strong>Q${q.number}:</strong> ${qText}<br><span class="muted-text">${optsText}</span>`;
-          });
-          const ansSummary = g.questions.map((q) => `${q.number}:${q.answer}`).join(' ');
-          const scriptHtml = renderScriptPanel(scriptKey, g.group_id.toUpperCase(), breakdown, ansSummary, g.script || g.transcript || '');
+          const scriptHtml = renderScriptPanel(
+            scriptKey,
+            `Questions ${g.group_id.replace('q', '')}`,
+            g.script || g.transcript || ''
+          );
 
           return `
             <article class="group-card">
               <div class="group-directions">
-                <span>Questions ${escapeHtml(g.group_id.replace('q', ''))}</span>
+                <span>Questions ${escapeHtml(g.group_id.replace('q', ''))} ${g.simulated ? '<span class="badge badge-warn">Simulated from script</span>' : ''}</span>
                 <button type="button" class="btn btn-outline btn-xs" data-toggle-script="${escapeHtml(scriptKey)}">
                   ${groupScriptVisible ? 'Hide Script' : 'Show Script'}
                 </button>
@@ -862,6 +887,7 @@
           <article class="question-card" id="question-${q.number}">
             ${renderQuestionHeader(q.number, escapeHtml(q.question))}
             <div class="options-list">${renderOptionButtons(q, false)}</div>
+            ${renderExplanationBlock(q)}
           </article>
         `);
       html = cards.join('');
@@ -878,6 +904,7 @@
               <div class="q-item" id="question-${q.number}">
                 ${renderQuestionHeader(q.number, `Blank ${escapeHtml(q.question)}`)}
                 <div class="options-list">${renderOptionButtons(q, false)}</div>
+                ${renderExplanationBlock(q)}
               </div>
             `)
             .join('');
@@ -913,6 +940,7 @@
               <div class="q-item" id="question-${q.number}">
                 ${renderQuestionHeader(q.number, escapeHtml(q.question))}
                 <div class="options-list">${renderOptionButtons(q, false)}</div>
+                ${renderExplanationBlock(q)}
               </div>
             `)
             .join('');
@@ -952,7 +980,7 @@
       state.reviewMode = Boolean(state.attempt.submitted);
       state.timerPaused = false;
       state.openScripts.clear();
-      state.revealedKeys.clear();
+      state.openExplanations.clear();
       savePreferences();
 
       els.testSelect.value = String(testId);
@@ -1185,9 +1213,11 @@
         return;
       }
 
-      const revealBtn = e.target.closest('[data-reveal-key]');
-      if (revealBtn) {
-        state.revealedKeys.add(revealBtn.dataset.revealKey);
+      const explainBtn = e.target.closest('[data-toggle-explain]');
+      if (explainBtn) {
+        const qNum = Number(explainBtn.dataset.toggleExplain);
+        if (state.openExplanations.has(qNum)) state.openExplanations.delete(qNum);
+        else state.openExplanations.add(qNum);
         renderActivePart();
       }
     });
@@ -1197,13 +1227,6 @@
       if (!optBtn || state.attempt.submitted) return;
       e.preventDefault();
       toggleEliminated(String(optBtn.dataset.q), optBtn.dataset.opt);
-    });
-
-    els.questionsContainer.addEventListener('input', (e) => {
-      const ta = e.target.closest('[data-script-note]');
-      if (!ta) return;
-      state.scripts[ta.dataset.scriptNote] = ta.value;
-      saveScripts();
     });
 
     const handlePaletteJump = (e) => {
@@ -1241,6 +1264,7 @@
       if (choice === 'confirm' && state.activeTestId) {
         state.attempt = defaultAttempt();
         state.reviewMode = false;
+        state.openExplanations.clear();
         saveAttempt();
         els.audioEl.pause();
         els.audioEl.currentTime = 0;

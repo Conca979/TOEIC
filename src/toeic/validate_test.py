@@ -55,6 +55,8 @@ def _check_question_4(q: Any, expected_num: int, ctx: str, errors: list[str]) ->
     _check_options(q.get("options"), VALID_4, ctx, errors)
     if q.get("answer") not in VALID_4:
         errors.append(f"{ctx}: answer must be in {VALID_4}, got {q.get('answer')!r}")
+    if not _is_nonempty_str(q.get("explanation")):
+        errors.append(f"{ctx}: explanation must be a non-empty string")
 
 
 def validate_test(test_id: int, out_root: Path = Path("extracted")) -> list[str]:
@@ -107,6 +109,10 @@ def validate_test(test_id: int, out_root: Path = Path("extracted")) -> list[str]
                 _check_options(item.get("options"), VALID_4, ctx, errors)
                 if item.get("answer") not in VALID_4:
                     errors.append(f"{ctx}: answer must be in {VALID_4}, got {item.get('answer')!r}")
+                if not _is_nonempty_str(item.get("script")):
+                    errors.append(f"{ctx}: script must be a non-empty string")
+                if not _is_nonempty_str(item.get("explanation")):
+                    errors.append(f"{ctx}: explanation must be a non-empty string")
 
         # Part 2: 7..31
         p2 = listening.get("part2")
@@ -123,6 +129,10 @@ def validate_test(test_id: int, out_root: Path = Path("extracted")) -> list[str]
                 _check_options(item.get("options"), VALID_3, ctx, errors)
                 if item.get("answer") not in VALID_3:
                     errors.append(f"{ctx}: answer must be in {VALID_3}, got {item.get('answer')!r}")
+                if not _is_nonempty_str(item.get("script")):
+                    errors.append(f"{ctx}: script must be a non-empty string")
+                if not _is_nonempty_str(item.get("explanation")):
+                    errors.append(f"{ctx}: explanation must be a non-empty string")
 
         # Part 3: 13 groups (32..70)
         p3 = listening.get("part3")
@@ -139,6 +149,8 @@ def validate_test(test_id: int, out_root: Path = Path("extracted")) -> list[str]
                     continue
                 if g.get("group_id") != expected_gid:
                     errors.append(f"{ctx}: expected group_id {expected_gid!r}, got {g.get('group_id')!r}")
+                if not _is_nonempty_str(g.get("script")):
+                    errors.append(f"{ctx}: script must be a non-empty string")
                 _check_image_ref(g.get("image"), test_dir, ctx, errors, allow_none=True)
                 qs = g.get("questions")
                 if not isinstance(qs, list) or len(qs) != 3:
@@ -170,6 +182,8 @@ def validate_test(test_id: int, out_root: Path = Path("extracted")) -> list[str]
                     continue
                 if g.get("group_id") != expected_gid:
                     errors.append(f"{ctx}: expected group_id {expected_gid!r}, got {g.get('group_id')!r}")
+                if not _is_nonempty_str(g.get("script")):
+                    errors.append(f"{ctx}: script must be a non-empty string")
                 _check_image_ref(g.get("image"), test_dir, ctx, errors, allow_none=True)
                 qs = g.get("questions")
                 if not isinstance(qs, list) or len(qs) != 3:
